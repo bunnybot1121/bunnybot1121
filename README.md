@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF4500,50:0066FF,100:00FFFF&height=200&section=header&text=SACHIN%20YADAV&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=35&desc=//%20STARK%20INDUSTRIES%20·%20AUTHORIZED%20ACCESS%20ONLY%20//&descAlignY=58&descSize=13&descColor=00BFFF" width="100%"/>
+<img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/hud-banner.svg" width="100%"/>
+
+<br/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&pause=800&color=00FFFF&center=true&vCenter=true&width=750&lines=JARVIS+ONLINE.+Welcome+back%2C+Mr.+Yadav.+%F0%9F%A6%BE;Arc+Reactor+Status+%3A+FULLY+CHARGED+%E2%9A%A1;100+active+ideas+in+neural+core+%F0%9F%92%A1;Spider-Sense+tingling+%E2%80%94+new+project+incoming+%F0%9F%95%B7%EF%B8%8F;I+am+Iron+Man.+And+I+build+things.+%F0%9F%9A%80)](https://git.io/typing-svg)
 
