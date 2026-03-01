@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      
+      .bg { fill: #000408; }
+      .grid-line { stroke: #00304a; stroke-width: 0.5; }
+      .hud-circle { fill: none; stroke: #00BFFF; }
+      .hud-circle-glow { fill: none; stroke: #00FFFF; filter: url(#glow); }
+      .arc-ring { fill: none; stroke-width: 2; }
+      .text-cyan { fill: #00FFFF; font-family: 'Share Tech Mono', monospace; }
+      .text-blue { fill: #00BFFF; font-family: 'Share Tech Mono', monospace; }
+      .text-dim { fill: #005577; font-family: 'Share Tech Mono', monospace; }
+      .line-accent { stroke: #00BFFF; stroke-width: 1; }
+      .line-dim { stroke: #003355; stroke-width: 0.5; }
+      .corner { fill: none; stroke: #00BFFF; stroke-width: 1.5; }
+      .dot { fill: #00FFFF; }
+      .scan { fill: none; stroke: #00FFFF; stroke-width: 0.8; opacity: 0.5; }
+      
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      .rotate-slow { animation: rotateSlow 8s linear infinite; transform-origin: 175px 150px; }
+      .rotate-med { animation: rotateMed 5s linear infinite; transform-origin: 175px 150px; }
+      .rotate-fast { animation: rotateFast 3s linear infinite; transform-origin: 175px 150px; }
+      .blink { animation: blink 1.5s step-end infinite; }
+      .flicker { animation: flicker 4s ease-in-out infinite; }
+      .scan-anim { animation: scan 3s ease-in-out infinite; }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.4; }
+      }
+      @keyframes rotateSlow {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes rotateMed {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(-360deg); }
+      }
+      @keyframes rotateFast {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes flicker {
+        0%, 95%, 100% { opacity: 1; }
+        96%, 98% { opacity: 0.2; }
+      }
+      @keyframes scan {
+        0%, 100% { transform: translateY(0px); opacity: 0.6; }
+        50% { transform: translateY(60px); opacity: 0.2; }
+      }
+    </style>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066FF;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="fadeLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#000408;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#000408;stop-opacity:0" />
+    </linearGradient>
+
+    <linearGradient id="fadeRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="70%" style="stop-color:#000408;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#000408;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" class="bg"/>
+  
+  <!-- Grid -->
+  <g opacity="0.3">
+    <line x1="0" y1="50" x2="900" y2="50" class="grid-line"/>
+    <line x1="0" y1="100" x2="900" y2="100" class="grid-line"/>
+    <line x1="0" y1="150" x2="900" y2="150" class="grid-line"/>
+    <line x1="0" y1="200" x2="900" y2="200" class="grid-line"/>
+    <line x1="0" y1="250" x2="900" y2="250" class="grid-line"/>
+    <line x1="100" y1="0" x2="100" y2="300" class="grid-line"/>
+    <line x1="200" y1="0" x2="200" y2="300" class="grid-line"/>
+    <line x1="350" y1="0" x2="350" y2="300" class="grid-line"/>
+    <line x1="500" y1="0" x2="500" y2="300" class="grid-line"/>
+    <line x1="650" y1="0" x2="650" y2="300" class="grid-line"/>
+    <line x1="800" y1="0" x2="800" y2="300" class="grid-line"/>
+  </g>
+
+  <!-- ═══ ARC REACTOR SECTION (LEFT) ═══ -->
+  
+  <!-- Outer decorative rings -->
+  <circle cx="175" cy="150" r="110" fill="none" stroke="#001828" stroke-width="1"/>
+  <circle cx="175" cy="150" r="105" fill="none" stroke="#002233" stroke-width="0.5"/>
+  
+  <!-- Rotating outer ring -->
+  <g class="rotate-slow">
+    <circle cx="175" cy="150" r="95" fill="none" stroke="#003355" stroke-width="1" stroke-dasharray="8 4"/>
+    <circle cx="270" cy="150" r="3" fill="#00BFFF" opacity="0.8"/>
+    <circle cx="80" cy="150" r="3" fill="#00BFFF" opacity="0.8"/>
+    <circle cx="175" cy="55" r="3" fill="#00FFFF" opacity="0.9"/>
+    <circle cx="175" cy="245" r="3" fill="#00FFFF" opacity="0.9"/>
+  </g>
+
+  <!-- Rotating middle ring -->  
+  <g class="rotate-med">
+    <circle cx="175" cy="150" r="78" fill="none" stroke="#004466" stroke-width="1.5" stroke-dasharray="15 8 3 8"/>
+    <line x1="175" y1="72" x2="175" y2="62" stroke="#00BFFF" stroke-width="2"/>
+    <line x1="175" y1="228" x2="175" y2="238" stroke="#00BFFF" stroke-width="2"/>
+    <line x1="97" y1="150" x2="87" y2="150" stroke="#00BFFF" stroke-width="2"/>
+    <line x1="253" y1="150" x2="263" y2="150" stroke="#00BFFF" stroke-width="2"/>
+  </g>
+
+  <!-- Arc reactor glow base -->
+  <circle cx="175" cy="150" r="60" fill="#000D1A" stroke="#0044AA" stroke-width="1.5"/>
+  <circle cx="175" cy="150" r="58" fill="none" stroke="#0066CC" stroke-width="0.5"/>
+  
+  <!-- Rotating fast ring -->
+  <g class="rotate-fast">
+    <circle cx="175" cy="150" r="55" fill="none" stroke="url(#arcGrad)" stroke-width="2" stroke-dasharray="20 5 5 5 20 60"/>
+  </g>
+
+  <!-- Arc reactor inner -->
+  <circle cx="175" cy="150" r="42" fill="#000510" stroke="#0088DD" stroke-width="1.5"/>
+  
+  <!-- Inner glow rings -->
+  <circle cx="175" cy="150" r="38" fill="none" stroke="#00AAFF" stroke-width="1" opacity="0.6" class="pulse"/>
+  <circle cx="175" cy="150" r="30" fill="none" stroke="#00CCFF" stroke-width="1.5" opacity="0.8" class="pulse"/>
+
+  <!-- Hex pattern inside arc reactor -->
+  <g opacity="0.4">
+    <polygon points="175,128 190,137 190,155 175,164 160,155 160,137" fill="none" stroke="#00BFFF" stroke-width="1"/>
+    <polygon points="175,134 186,140 186,153 175,159 164,153 164,140" fill="none" stroke="#00FFFF" stroke-width="0.5"/>
+  </g>
+
+  <!-- Arc reactor core -->
+  <circle cx="175" cy="150" r="22" fill="#001525" stroke="#00DDFF" stroke-width="2" filter="url(#glow-strong)" class="pulse"/>
+  <circle cx="175" cy="150" r="16" fill="#003366" opacity="0.9"/>
+  <circle cx="175" cy="150" r="10" fill="#00AAFF" opacity="0.7" filter="url(#glow-strong)" class="pulse"/>
+  <circle cx="175" cy="150" r="5" fill="#00FFFF" filter="url(#glow-strong)"/>
+
+  <!-- Scan line over arc reactor -->
+  <rect x="115" y="140" width="120" height="2" fill="#00FFFF" opacity="0.3" class="scan-anim"/>
+
+  <!-- ═══ CORNER BRACKETS ═══ -->
+  <!-- Top left -->
+  <path d="M 10,10 L 10,40 M 10,10 L 40,10" class="corner"/>
+  <circle cx="10" cy="10" r="2" fill="#00FFFF"/>
+  
+  <!-- Top right -->
+  <path d="M 890,10 L 890,40 M 890,10 L 860,10" class="corner"/>
+  <circle cx="890" cy="10" r="2" fill="#00FFFF"/>
+  
+  <!-- Bottom left -->
+  <path d="M 10,290 L 10,260 M 10,290 L 40,290" class="corner"/>
+  <circle cx="10" cy="290" r="2" fill="#00FFFF"/>
+  
+  <!-- Bottom right -->
+  <path d="M 890,290 L 890,260 M 890,290 L 860,290" class="corner"/>
+  <circle cx="890" cy="290" r="2" fill="#00FFFF"/>
+
+  <!-- ═══ MAIN TEXT SECTION (RIGHT) ═══ -->
+
+  <!-- Top label -->
+  <text x="360" y="45" class="text-dim" font-size="10">STARK INDUSTRIES // AUTHORIZED ACCESS ONLY</text>
+  <line x1="350" y1="52" x2="880" y2="52" stroke="#003355" stroke-width="0.8"/>
+
+  <!-- JARVIS line -->
+  <text x="360" y="78" class="text-dim" font-size="10">JARVIS v4.2 &gt;&gt; USER IDENTIFIED</text>
+  
+  <!-- Name -->
+  <text x="355" y="120" fill="url(#arcGrad)" font-family="Share Tech Mono, monospace" font-size="42" font-weight="bold" filter="url(#glow)" class="flicker">SACHIN YADAV</text>
+
+  <!-- Divider line with dots -->
+  <line x1="355" y1="132" x2="860" y2="132" stroke="#004466" stroke-width="1"/>
+  <circle cx="355" cy="132" r="2" fill="#00FFFF"/>
+  <circle cx="860" cy="132" r="2" fill="#00FFFF"/>
+
+  <!-- Role tags -->
+  <rect x="355" y="142" width="100" height="18" fill="#001525" stroke="#00BFFF" stroke-width="1" rx="2"/>
+  <text x="368" y="155" class="text-cyan" font-size="10">// DEVELOPER</text>
+
+  <rect x="465" y="142" width="80" height="18" fill="#001525" stroke="#0066FF" stroke-width="1" rx="2"/>
+  <text x="478" y="155" class="text-blue" font-size="10">// STUDENT</text>
+
+  <rect x="555" y="142" width="100" height="18" fill="#001525" stroke="#00BFFF" stroke-width="1" rx="2"/>
+  <text x="562" y="155" class="text-cyan" font-size="10">// INNOVATOR</text>
+
+  <!-- Stats row -->
+  <line x1="355" y1="172" x2="860" y2="172" stroke="#002233" stroke-width="0.5"/>
+  
+  <text x="355" y="190" class="text-dim" font-size="9">CONTRIBUTIONS</text>
+  <text x="355" y="205" class="text-cyan" font-size="18" font-weight="bold" filter="url(#glow)">207+</text>
+
+  <line x1="430" y1="175" x2="430" y2="215" stroke="#003355" stroke-width="1"/>
+
+  <text x="445" y="190" class="text-dim" font-size="9">TECH STACK</text>
+  <text x="445" y="205" class="text-blue" font-size="14" font-weight="bold">HTML // CSS</text>
+
+  <line x1="580" y1="175" x2="580" y2="215" stroke="#003355" stroke-width="1"/>
+
+  <text x="595" y="190" class="text-dim" font-size="9">DIRECTIVE</text>
+  <text x="595" y="205" class="text-cyan" font-size="13" font-weight="bold">BUILD EVERYTHING</text>
+
+  <!-- Bottom line -->
+  <line x1="355" y1="222" x2="860" y2="222" stroke="#004466" stroke-width="1"/>
+
+  <!-- Bottom quote -->
+  <text x="360" y="245" class="text-blue" font-size="11" font-style="italic" opacity="0.8">"Code is my suit. Ideas are my power source."</text>
+  
+  <!-- Bottom status -->
+  <text x="360" y="268" class="text-dim" font-size="9">ARC REACTOR STATUS:</text>
+  <rect x="465" y="258" width="70" height="14" fill="#001A00" stroke="#00FF41" stroke-width="1" rx="2"/>
+  <text x="474" y="269" fill="#00FF41" font-family="Share Tech Mono, monospace" font-size="9">● ONLINE</text>
+
+  <text x="550" y="268" class="text-dim" font-size="9">THREAT LEVEL:</text>
+  <text x="630" y="268" fill="#00FFFF" font-family="Share Tech Mono, monospace" font-size="9">ZERO</text>
+
+  <text x="690" y="268" class="text-dim" font-size="9">BUILD LEVEL:</text>
+  <text x="760" y="268" fill="#FF4500" font-family="Share Tech Mono, monospace" font-size="9" filter="url(#glow)">MAXIMUM</text>
+
+  <!-- Blink cursor -->
+  <text x="855" y="268" class="text-cyan blink" font-size="12">▮</text>
+
+  <!-- Fade overlays for depth -->
+  <rect width="60" height="300" fill="url(#fadeLeft)"/>
+  <rect x="840" width="60" height="300" fill="url(#fadeRight)"/>
+
+  <!-- Top & bottom fade -->
+  <rect width="900" height="15" fill="#000408"/>
+  <rect y="285" width="900" height="15" fill="#000408"/>
+</svg>
