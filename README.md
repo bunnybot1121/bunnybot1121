@@ -9,9 +9,7 @@
 </div>
 
 ---
-
-<img align="right" src="https://media.giphy.com/media/RkDDMFBKCxGDIgnoMY/giphy.gif" width="340"/>
-
+<img align="right" src="https://media.giphy.com/media/dB9O8fwXbBsyJIlLGt/giphy.gif" width="320"/>
 ## 🦾 Suit Up. Here's the Intel:
 ```
 ╔══════════════════════════════════════╗
