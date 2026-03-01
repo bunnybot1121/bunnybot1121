@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=200&section=header&text=Sachin%20Yadav&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Genius.%20Student.%20Developer.&descAlignY=58&descSize=20"/>
+<img src="https://media.giphy.com/media/l4FGpPki2JKxGKCFi/giphy.gif" width="250"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=FF4500&center=true&vCenter=true&random=false&width=700&lines=I+am+Iron+Man.+🦾;With+great+power+comes+great+responsibility.+🕷️;Building+my+suit+one+commit+at+a+time.+🔧;Not+all+heroes+wear+capes+—+some+write+code.+💻;JARVIS%2C+deploy+the+project.+🚀)](https://git.io/typing-svg)
 
