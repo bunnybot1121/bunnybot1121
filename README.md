@@ -68,6 +68,24 @@
 
 ---
 
+## 📊 METRICS
+
+<img src="./metrics.svg" width="100%"/>
+
+---
+
+## ⚡ RECENT ACTIVITY
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+## ⏱️ CODING STATS
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ## 🕸️ CONTRIBUTION WEB
 
 <picture>
