@@ -1,49 +1,62 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sachin%20Yadav&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=I%20don't%20just%20code%20—%20I%20build%20my%20imagination&descAlignY=55&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=200&section=header&text=Sachin%20Yadav&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Genius.%20Student.%20Developer.&descAlignY=58&descSize=20"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=Hey+there!+I'm+Sachin+Yadav+👋;A+student+who+lives+to+code+💻;I+have+ideas+—+code+is+how+I+show+them+🚀;Learning+everything%2C+one+project+at+a+time+🌱)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&color=FF4500&center=true&vCenter=true&random=false&width=700&lines=I+am+Iron+Man.+🦾;With+great+power+comes+great+responsibility.+🕷️;Building+my+suit+one+commit+at+a+time.+🔧;Not+all+heroes+wear+capes+—+some+write+code.+💻;JARVIS%2C+deploy+the+project.+🚀)](https://git.io/typing-svg)
+
+<img src="https://komarev.com/ghpvc/?username=bunnybot1121&style=for-the-badge&color=ff4500&label=VISITORS"/>
 
 </div>
 
 ---
 
-<img align="right" alt="Coding" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" src="https://media.giphy.com/media/RkDDMFBKCxGDIgnoMY/giphy.gif" width="340"/>
 
-### 🧠 Who am I?
+## 🦾 Suit Up. Here's the Intel:
+```
+╔══════════════════════════════════════╗
+║  STARK INDUSTRIES x PARKER LABS      ║
+║  Agent    : Sachin Yadav             ║
+║  Role     : Student & Developer      ║
+║  Status   : Suiting Up 🔧            ║
+║  Power    : Infinite Ideas 💡        ║
+║  Weakness : Sleep (sometimes)        ║
+╚══════════════════════════════════════╝
+```
 
-- 🎓 A **student** who chose code over everything
-- 💡 My mind never stops — always full of **ideas**
-- 🔨 I build projects to **show the world what I think**
-- 🌱 Currently mastering **HTML, CSS & Web Dev**
-- ⚡ Motto: **Learn everything. Build anything.**
-- 🚀 207+ contributions and I'm just getting started
+### ⚡ My Story:
+- 🦾 Like Tony — I build things from **pure imagination**
+- 🕷️ Like Peter — I'm just a **student** who never gives up
+- 💡 My mind has **100 ideas** running every second
+- 🔨 Code is my suit — I build it **piece by piece**
+- 🚀 **207+ contributions** — the grind never stops
+- 🎯 Motto: **"I can do this all day."**
 
-<br/>
+<br clear="right"/>
 
 ---
 
 <div align="center">
 
-## 🛠️ My Arsenal
+## 🛠️ My Tech Arsenal
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
----
-
-## 🔥 GitHub Stats
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bunnybot1121&theme=tokyonight&hide_border=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&theme=tokyonight&hide_border=true" width="49%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&theme=tokyonight&hide_border=true" width="40%"/>
+![HTML](https://img.shields.io/badge/HTML5-FF4500?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-B22222?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-8B0000?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-FF6347?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
-## 🐍 My Contributions
+## 🔥 JARVIS — Run Diagnostics
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=bunnybot1121&theme=dark&hide_border=true&ring=FF4500&fire=FF6347&currStreakLabel=FF4500" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&theme=dark&hide_border=true&icon_color=FF4500&title_color=FF4500" width="49%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&theme=dark&hide_border=true&title_color=FF4500" width="40%"/>
+
+---
+
+## 🕸️ Web of Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake-dark.svg"/>
@@ -52,9 +65,17 @@
 
 ---
 
-> ### *"I have a hundred ideas in my head — and I won't stop until every single one is built."*
-> **— Sachin Yadav**
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+---
+
+<img src="https://media.giphy.com/media/xonOzxf38XjDqBqtAh/giphy.gif" width="200"/>
+
+> # *"I have a thousand ideas in my head —*
+> # *and just like Tony built his first suit in a cave,*
+> # *I'll build mine with whatever I have."*
+> ### — Sachin Yadav 🔥
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4&height=120&section=footer"/>
 
 </div>
