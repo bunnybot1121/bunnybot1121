@@ -1,105 +1,154 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:003366,100:000000&height=4&section=header"/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0066FF,100:00FFFF&height=200&section=header&text=STARK%20LABS&fontSize=60&fontColor=00FFFF&animation=twinkling&fontAlignY=38&desc=//%20Initializing%20Sachin%20Yadav%20...&descAlignY=60&descSize=16&descColor=00BFFF"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=700&lines=JARVIS+ONLINE.+Welcome+back%2C+Mr.+Yadav.+🦾;Arc+Reactor+Status+%3A+FULLY+CHARGED+⚡;100+active+ideas+detected+in+neural+core+💡;Deploying+next+project+in+3...2...1...+🚀;Threat+Level+%3A+Zero.+Build+Level+%3A+MAXIMUM.+🔥)](https://git.io/typing-svg)
+<img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/hud-banner.svg" width="100%"/>
 
 <br/>
 
-![](https://img.shields.io/badge/STATUS-ONLINE-00FF41?style=for-the-badge&logo=statuspal&logoColor=black)
-![](https://img.shields.io/badge/ARC_REACTOR-CHARGED-00BFFF?style=for-the-badge&logo=tesla&logoColor=black)
-<img src="https://komarev.com/ghpvc/?username=bunnybot1121&style=for-the-badge&color=0066FF&label=SCANS+DETECTED"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&pause=800&color=00FFFF&center=true&vCenter=true&random=false&width=750&lines=JARVIS+ONLINE.+Welcome+back%2C+Mr.+Yadav.+🦾;⚡+Arc+Reactor+Status+%3A+FULLY+CHARGED;🧠+100+active+ideas+detected+in+neural+core...;🕷️+Spider-Sense+tingling+—+new+project+incoming;🚀+I+am+Iron+Man.+And+I+build+things.;💡+Not+all+heroes+wear+capes+—+some+write+code.)](https://git.io/typing-svg)
+
+<br/>
+
+![](https://img.shields.io/badge/🦾_TONY_STARK_MODE-ACTIVE-FF4500?style=for-the-badge)
+![](https://img.shields.io/badge/🕷️_SPIDER_SENSE-TINGLING-FF0000?style=for-the-badge)
+![](https://img.shields.io/badge/⚡_ARC_REACTOR-CHARGED-00BFFF?style=for-the-badge)
+<img src="https://komarev.com/ghpvc/?username=bunnybot1121&style=for-the-badge&color=0066FF&label=🔍+SCANS+DETECTED"/>
 
 </div>
 
 ---
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700"/>
-</div>
-
----
-
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="350"/>
-
-## ⚙️ SYSTEM IDENTIFICATION
-```
-┌─────────────────────────────────────────┐
-│         STARK INDUSTRIES TERMINAL       │
-│─────────────────────────────────────────│
-│  AGENT      » Sachin Yadav              │
-│  CLEARANCE  » Level 7 — Developer       │
-│  INSTITUTE  » Student [ACTIVE]          │
-│  ARC CORE   » 100 Ideas [OVERCLOCKED]   │
-│  DIRECTIVE  » Build. Learn. Repeat.     │
-│  UPTIME     » 207+ Commits & Counting   │
-│─────────────────────────────────────────│
-│  "I have ideas the world hasn't seen."  │
-└─────────────────────────────────────────┘
-```
+<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320"/>
 
 <br/>
 
-## 🔬 ACTIVE PROTOCOLS
-
-- ⚡ **VISION** — Turn every idea into reality
-- 🛰️ **LEARNING** — HTML, CSS & Web Dev [IN PROGRESS]  
-- 🔧 **BUILDING** — New project always in the lab
-- 🧠 **PROCESSING** — 100 ideas at any given time
-- 🎯 **MISSION** — Leave a mark on the internet
+```
+╔══════════════════════════════════════════════════╗
+║          ⚡ STARK INDUSTRIES TERMINAL ⚡          ║
+╠══════════════════════════════════════════════════╣
+║                                                  ║
+║   "Genius. Student. Developer."                  ║
+║                                                  ║
+║   AGENT       »  Sachin Yadav                    ║
+║   ALIAS       »  bunnybot1121                    ║
+║   CLEARANCE   »  Level 7 — DEVELOPER             ║
+║   LOCATION    »  India 🇮🇳                        ║
+║   ARC CORE    »  100 Ideas [OVERCLOCKED 🔥]      ║
+║   DIRECTIVE   »  Build. Break. Improve. Repeat.  ║
+║   UPTIME      »  207+ Commits & Still Going      ║
+║                                                  ║
+║   STATUS      »  ██████████████░░░  BUILDING     ║
+║                                                  ║
+╚══════════════════════════════════════════════════╝
+```
 
 <br clear="right"/>
 
 ---
 
+## 🦾 The Stark Protocol — Who Am I?
+
+> *"I'm just a student with a laptop, a hundred ideas, and the same energy as a man in a flying metal suit."*
+
+Like **Tony Stark** — I don't wait for the right tools. I build with what I have.
+Like **Peter Parker** — I'm just a regular kid who refuses to give up.
+
+The difference between me and everyone else? **I actually ship it.**
+
+---
+
+## 🕷️ Spider-Web of Skills
+
 <div align="center">
 
-## 🔩 TECH MODULES LOADED
+```
+                    [ HTML5 ]
+                       |
+              [ CSS3 ]─┼─[ GitHub ]
+                       |
+                  [ VS Code ]
+                       |
+              [ NEXT: JavaScript? ]
+                       |
+                  [ The Future... ]
+```
 
-![HTML](https://img.shields.io/badge/HTML5-00BFFF?style=for-the-badge&logo=html5&logoColor=black)
-![CSS](https://img.shields.io/badge/CSS3-0066FF?style=for-the-badge&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-00FFFF?style=for-the-badge&logo=github&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-003366?style=for-the-badge&logo=visual-studio-code&logoColor=00FFFF)
+![VS Code](https://img.shields.io/badge/VS%20Code-0066FF?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+</div>
 
 ---
 
-## 📡 RUNNING DIAGNOSTICS
+## ⚙️ JARVIS — Mission Log
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bunnybot1121&theme=highcontrast&hide_border=true&ring=00FFFF&fire=0066FF&currStreakLabel=00BFFF&background=000000&stroke=0066FF&sideLabels=00BFFF&dates=0066FF" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=000000&title_color=00FFFF&icon_color=0066FF&text_color=00BFFF&hide_border=true" width="49%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=000000&title_color=00FFFF&text_color=00BFFF&hide_border=true" width="40%"/>
+| Protocol | Status | Priority |
+|---|---|---|
+| 🔨 Mastering HTML & CSS | `IN PROGRESS` | 🔴 CRITICAL |
+| 🧠 Learning JavaScript | `QUEUED` | 🟠 HIGH |
+| 🚀 Build a full website from scratch | `IN PROGRESS` | 🔴 CRITICAL |
+| 🌍 Make something the world can use | `PLANNED` | 🟡 MEDIUM |
+| 💼 Land first dev opportunity | `PLANNED` | 🟠 HIGH |
+| 🦾 Become the Tony Stark of code | `LIFETIME GOAL` | ⚡ INFINITE |
 
 ---
 
-## 🕸️ CONTRIBUTION GRID — LIVE SCAN
+## 📡 JARVIS — Running Full Diagnostics
 
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=bunnybot1121&theme=highcontrast&hide_border=true&ring=FF4500&fire=FF6347&currStreakLabel=00FFFF&background=0D0D0D&stroke=00BFFF&sideLabels=00BFFF&dates=0066FF" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=0D0D0D&title_color=FF4500&icon_color=00FFFF&text_color=00BFFF&hide_border=true&border_radius=10" width="48%"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=0D0D0D&color=00FFFF&line=FF4500&point=00BFFF&area=true&hide_border=true" width="98%"/>
+
+</div>
+
+---
+
+## 🕸️ Contribution Web — Live Scan
+
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake-dark.svg"/>
   <img alt="Snake animation" src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake.svg"/>
 </picture>
+</div>
+
+---
+
+## 🎬 The Avengers Test — Would You Make The Team?
+
+```
+STARK       : "Kid, you write HTML?"
+SACHIN      : "Yes sir."
+STARK       : "CSS too?"
+SACHIN      : "Yes sir."
+STARK       : "Ideas?"
+SACHIN      : "A hundred of them."
+STARK       : *nods* "You're in."
+PARKER      : "That's literally how I got recruited too."
+```
 
 ---
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700"/>
-</div>
 
----
 ```
-╔══════════════════════════════════════════════════════╗
-║          FINAL TRANSMISSION — SACHIN YADAV           ║
-║                                                      ║
-║  "Just like Tony built his suit in a cave —          ║
-║   I'm building my empire with a laptop               ║
-║   and a hundred ideas that refuse to stay quiet."    ║
-║                                                      ║
-║                              — S. Yadav  🦾          ║
-╚══════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════╗
+║                FINAL TRANSMISSION                        ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║   "Tony built his first suit in a cave.                  ║
+║    Peter stopped a bus with his bare hands.              ║
+║    I'm just getting started —                            ║
+║    but I've got the same fire."                          ║
+║                                                          ║
+║                              — Sachin Yadav  🦾🕷️        ║
+╚══════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:0066FF,100:000000&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF4500,50:0066FF,100:00FFFF&height=120&section=footer"/>
 
 </div>
