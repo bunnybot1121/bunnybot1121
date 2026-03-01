@@ -59,12 +59,6 @@
 
 ---
 
-## 📡 RUNNING DIAGNOSTICS
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bunnybot1121&theme=highcontrast&hide_border=true&ring=FF4500&fire=FF6347&currStreakLabel=00FFFF&background=0D0D0D" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=0D0D0D&title_color=FF4500&icon_color=00FFFF&text_color=00BFFF&hide_border=true" width="48%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=0D0D0D&color=00FFFF&line=FF4500&point=00BFFF&area=true&hide_border=true" width="96%"/>
 
 ---
 ## 📡 RUNNING DIAGNOSTICS
