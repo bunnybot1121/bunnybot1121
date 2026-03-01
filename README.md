@@ -86,11 +86,6 @@
 
 ---
 
-## ⏱️ CODING STATS
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
----
 
 ## 🕸️ CONTRIBUTION WEB
 
