@@ -1,116 +1,108 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/hud-banner.svg" width="100%"/>
+# Hi there, I'm Sachin Yadav 👋
+### Developer | Innovator | Problem Solver
 
-<br/>
+<p align="center">
+  <a href="https://github.com/bunnybot1121">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&size=22&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Building+impactful+software;Full-Stack+Developer;Always+learning+new+technologies;Let's+build+something+amazing+together" alt="Typing SVG" />
+  </a>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&pause=800&color=00FFFF&center=true&vCenter=true&width=750&lines=JARVIS+ONLINE.+Welcome+back%2C+Mr.+Yadav.+%F0%9F%A6%BE;Arc+Reactor+Status+%3A+FULLY+CHARGED+%E2%9A%A1;100+active+ideas+in+neural+core+%F0%9F%92%A1;Spider-Sense+tingling+%E2%80%94+new+project+incoming+%F0%9F%95%B7%EF%B8%8F;I+am+Iron+Man.+And+I+build+things.+%F0%9F%9A%80)](https://git.io/typing-svg)
-
-<br/>
-
-![](https://img.shields.io/badge/STATUS-ONLINE-00FF41?style=for-the-badge)
-![](https://img.shields.io/badge/TONY_STARK_MODE-ACTIVE-FF4500?style=for-the-badge)
-![](https://img.shields.io/badge/ARC_REACTOR-CHARGED-00BFFF?style=for-the-badge)
-![](https://img.shields.io/badge/SPIDER_SENSE-TINGLING-FF0000?style=for-the-badge)
-<img src="https://komarev.com/ghpvc/?username=bunnybot1121&style=for-the-badge&color=FF4500&label=SCANS+DETECTED"/>
-
-</div>
+<p align="center">
+  <a href="https://github.com/bunnybot1121/bunnybot1121"><img src="https://img.shields.io/github/followers/bunnybot1121?label=Followers&style=for-the-badge&color=00BFFF&logo=github" alt="GitHub followers"></a>
+  <a href="https://github.com/bunnybot1121/bunnybot1121"><img src="https://img.shields.io/github/stars/bunnybot1121?style=for-the-badge&color=00FFFF&logo=github" alt="GitHub stars"></a>
+</p>
 
 ---
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="280"/>
+### 💻 About Me
 
-### ⚡ STARK INDUSTRIES TERMINAL
-
-| FIELD | DATA |
-|---|---|
-| AGENT | Sachin Yadav |
-| ALIAS | bunnybot1121 |
-| CLEARANCE | Level 7 — DEVELOPER 🔴 |
-| LOCATION | India 🇮🇳 |
-| ARC CORE | 100 Ideas OVERCLOCKED 🔥 |
-| DIRECTIVE | Build. Break. Improve. Repeat. |
-| STATUS | ██████████████░░ BUILDING |
-
-<br clear="right"/>
+*   🌱 I’m currently learning **Full-Stack Web Development & Modern UI/UX Design**.
+*   🤝 I’m looking to collaborate on **Open Source Projects & Innovative Web Apps**.
+*   💬 Ask me about **HTML, CSS, UI Design, & Problem Solving**.
+*   📫 How to reach me: **[sachin.yadav.dev@example.com](mailto:sachin.yadav.dev@example.com)** *(placeholder, update with your email)*
 
 ---
 
-<div align="center">
+### 🛠️ Tech Stack
 
-## ⚡ JARVIS — MISSION LOG
-
-| PROTOCOL | STATUS | PRIORITY |
-|---|---|---|
-| 🔨 Mastering HTML & CSS | `IN PROGRESS` | 🔴 CRITICAL |
-| 🧠 Learning JavaScript | `QUEUED` | 🟠 HIGH |
-| 🚀 Build a full website | `IN PROGRESS` | 🔴 CRITICAL |
-| 🌍 Make something the world uses | `PLANNED` | 🟡 MEDIUM |
-| 🦾 Become the Tony Stark of code | `LIFETIME GOAL` | ⚡ INFINITE |
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
 
 ---
 
-## 🔩 TECH MODULES LOADED
+### ✨ Featured Projects
 
-![HTML](https://img.shields.io/badge/HTML5-FF4500?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-0066FF?style=for-the-badge&logo=css3&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-00FFFF?style=for-the-badge&logo=github&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-003366?style=for-the-badge&logo=visual-studio-code&logoColor=00FFFF)
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/bunnybot1121/goted">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bunnybot1121&repo=goted&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="goted" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/bunnybot1121/Ai-Meme-Generator1">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bunnybot1121&repo=Ai-Meme-Generator1&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="Ai-Meme-Generator1" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/bunnybot1121/citizen">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bunnybot1121&repo=citizen&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="citizen" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/bunnybot1121/worker">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bunnybot1121&repo=worker&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="worker" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/bunnybot1121/stockmate1.0">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bunnybot1121&repo=stockmate1.0&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="stockmate1.0" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/NabilThange/HWM">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NabilThange&repo=HWM&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="HWM" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
+### 📊 GitHub Stats
 
----
-## 📡 RUNNING DIAGNOSTICS
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8&icon_color=00BFFF&hide_border=false" alt="bunnybot1121's GitHub stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bunnybot1121&theme=radical&background=0D1117&border=00FFFF&stroke=00FFFF&ring=00BFFF&fire=00BFFF&currStreakNum=A3B3C8&sideNums=A3B3C8&currStreakLabel=00FFFF&sideLabels=A3B3C8&dates=A3B3C8&hide_border=false" alt="bunnybot1121's GitHub streak" width="48%" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=0D0D0D&title_color=FF4500&icon_color=00FFFF&text_color=00BFFF&hide_border=true&rank_icon=github" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bunnybot1121&theme=highcontrast&hide_border=true&ring=FF4500&fire=FF6347&currStreakLabel=00FFFF&background=0D0D0D" width="48%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=donut&bg_color=0D0D0D&title_color=FF4500&text_color=00BFFF&hide_border=true" width="38%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=0D0D0D&color=00FFFF&line=FF4500&point=00BFFF&area=true&hide_border=true" width="58%"/>
-
-## ⚡ RECENT ACTIVITY
-<!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/bunnybot1121/municipal-dashboard/pull/1#issuecomment-3892160515) in [bunnybot1121/municipal-dashboard](https://github.com/bunnybot1121/municipal-dashboard)
-2. 🗣 Commented on [#1](https://github.com/bunnybot1121/municipal-dashboard/pull/1#issuecomment-3892160097) in [bunnybot1121/municipal-dashboard](https://github.com/bunnybot1121/municipal-dashboard)
-3. 🎉 Merged PR [#36](https://github.com/NabilThange/HWM/pull/36) in [NabilThange/HWM](https://github.com/NabilThange/HWM)
-4. 💪 Opened PR [#36](https://github.com/NabilThange/HWM/pull/36) in [NabilThange/HWM](https://github.com/NabilThange/HWM)
-5. 🎉 Merged PR [#35](https://github.com/NabilThange/HWM/pull/35) in [NabilThange/HWM](https://github.com/NabilThange/HWM)
-6. 💪 Opened PR [#35](https://github.com/NabilThange/HWM/pull/35) in [NabilThange/HWM](https://github.com/NabilThange/HWM)
-<!--END_SECTION:activity-->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="Top Languages" width="350px" />
+</p>
 
 ---
 
-
-## 🕸️ CONTRIBUTION WEB
+### 🏆 Top Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake-dark.svg"/>
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
----
+<br/>
 
-## 🎬 THE AVENGERS TEST
-
-| | |
-|---|---|
-| **STARK** | "Kid, you write HTML?" |
-| **SACHIN** | "Yes sir." |
-| **STARK** | "CSS too?" |
-| **SACHIN** | "Yes sir." |
-| **STARK** | "Ideas?" |
-| **SACHIN** | "A hundred of them." |
-| **STARK** | *nods* "You're in." |
-| **PARKER** | "That's literally how I got recruited too." |
-
----
-
-> ### *"Tony built his first suit in a cave.*
-> ### *Peter stopped a bus with his bare hands.*
-> ### *I'm just getting started — but I've got the same fire."*
-> **— Sachin Yadav 🦾🕷️**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF4500,50:0066FF,100:00FFFF&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:00FFFF&height=120&section=footer" width="100%"/>
 
 </div>
