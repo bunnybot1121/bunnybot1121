@@ -71,9 +71,7 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/NabilThange/HWM">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NabilThange&repo=HWM&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="HWM" />
-      </a>
+      <!-- Reserved for future project -->
     </td>
   </tr>
 </table>
