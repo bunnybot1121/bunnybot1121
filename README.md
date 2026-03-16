@@ -21,7 +21,7 @@
 *   🌱 I’m currently learning **Full-Stack Web Development & Modern UI/UX Design**.
 *   🤝 I’m looking to collaborate on **Open Source Projects & Innovative Web Apps**.
 *   💬 Ask me about **HTML, CSS, UI Design, & Problem Solving**.
-*   📫 How to reach me: **[sachin.yadav.dev@example.com](mailto:sachin.yadav.dev@example.com)** *(placeholder, update with your email)*
+*   📫 How to reach me: **[Sachinyadav402107@gmail.com](mailto:Sachinyadav402107@gmail.com)**
 
 ---
 
