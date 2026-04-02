@@ -18,8 +18,8 @@
 
 ### 💻 About Me
 
-*   🌱 I’m currently learning **Full-Stack Web Development & Modern UI/UX Design**.
-*   🤝 I’m looking to collaborate on **Open Source Projects & Innovative Web Apps**.
+*   🌱 I'm currently learning **Full-Stack Web Development & Modern UI/UX Design**.
+*   🤝 I'm looking to collaborate on **Open Source Projects & Innovative Web Apps**.
 *   💬 Ask me about **HTML, CSS, UI Design, & Problem Solving**.
 *   📫 How to reach me: **[Sachinyadav402107@gmail.com](mailto:Sachinyadav402107@gmail.com)**
 
@@ -100,6 +100,11 @@
 </picture>
 
 <br/>
+
+### 📈 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:00FFFF&height=120&section=footer" width="100%"/>
 
