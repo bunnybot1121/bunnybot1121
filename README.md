@@ -18,8 +18,8 @@
 
 ### 💻 About Me
 
-*   🌱 I’m currently learning **Full-Stack Web Development & Modern UI/UX Design**.
-*   🤝 I’m looking to collaborate on **Open Source Projects & Innovative Web Apps**.
+*   🌱 I'm currently learning **Full-Stack Web Development & Modern UI/UX Design**.
+*   🤝 I'm looking to collaborate on **Open Source Projects & Innovative Web Apps**.
 *   💬 Ask me about **HTML, CSS, UI Design, & Problem Solving**.
 *   📫 How to reach me: **[Sachinyadav402107@gmail.com](mailto:Sachinyadav402107@gmail.com)**
 
@@ -88,6 +88,13 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="Top Languages" width="350px" />
 </p>
+
+---
+
+### 📅 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
