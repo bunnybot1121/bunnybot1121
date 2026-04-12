@@ -154,29 +154,15 @@ ask_me    : React · Supabase · Gemini API · UI/UX
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&theme=github_dark" height="180" />
 &nbsp;
-<img src="https://streak-stats.demolab.com/?user=bunnybot1121&theme=github-dark&background=0D1117&border=ffffff&stroke=333333&ring=ffffff&fire=cccccc&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=aaaaaa" height="180" />
+<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=000000&border=ffffff&stroke=333333&ring=ffffff&fire=cccccc&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=888888" height="180" />
 
 <br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bunnybot1121&theme=github_dark" width="96%" />
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bunnybot1121&theme=github_dark" height="160" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=222222&hide_border=false&border_color=333333&title_color=ffffff" width="96%" />
 
 </div>
 
 ---
-
-## 🐍 &nbsp;Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
-
-<br/>
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
