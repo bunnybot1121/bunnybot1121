@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi there, I'm Sachin Yadav 👋
-### Full-Stack Developer · AI Builder · Civic Tech Innovator
+### 2nd Year CE Student · Building real things · One commit at a time
 
 <p align="center">
   <a href="https://github.com/bunnybot1121">
@@ -68,6 +68,18 @@
   </tr>
   <tr>
     <td align="center" width="50%">
+      <h3>🐛 BugHunt</h3>
+      <p>AI coding mentor that detects the thinking patterns behind your errors — not just the bug. Features a multiplayer "Among Us"-style mode where players hunt bugs in each other's code in real time.</p>
+      <a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
+    <td align="center" width="50%">
+      <h3>✅ GoTed</h3>
+      <p>A productivity and task management app — organized, minimal, and built for focus.</p>
+      <a href="https://github.com/bunnybot1121/goted"><img src="https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
       <h3>🤖 AI Meme Generator</h3>
       <p>AI-powered meme generation tool — fun meets generative AI.</p>
       <a href="https://github.com/bunnybot1121/Ai-Meme-Generator1"><img src="https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -85,12 +97,13 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8&icon_color=00BFFF&hide_border=false" alt="bunnybot1121's GitHub stats" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=bunnybot1121&theme=radical&background=0D1117&border=00FFFF&stroke=00FFFF&ring=00BFFF&fire=00BFFF&currStreakNum=A3B3C8&sideNums=A3B3C8&currStreakLabel=00FFFF&sideLabels=A3B3C8&dates=A3B3C8" alt="bunnybot1121's GitHub streak" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&theme=radical" alt="Stats" width="32%" />
+  <img src="https://streak-stats.demolab.com/?user=bunnybot1121&theme=radical&background=0D1117&border=00FFFF&stroke=00FFFF&ring=00BFFF&fire=00BFFF&currStreakNum=A3B3C8&sideNums=A3B3C8&currStreakLabel=00FFFF&sideLabels=A3B3C8&dates=A3B3C8" alt="GitHub Streak" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bunnybot1121&theme=radical" alt="Repos Per Language" width="32%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&theme=radical&bg_color=0D1117&border_color=00FFFF&title_color=00FFFF&text_color=A3B3C8" alt="Top Languages" width="350px" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bunnybot1121&theme=radical" alt="Profile Details" width="98%" />
 </p>
 
 ---
