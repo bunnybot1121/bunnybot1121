@@ -99,11 +99,12 @@
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&theme=radical" alt="Stats" width="32%" />
   <img src="https://streak-stats.demolab.com/?user=bunnybot1121&theme=radical&background=0D1117&border=00FFFF&stroke=00FFFF&ring=00BFFF&fire=00BFFF&currStreakNum=A3B3C8&sideNums=A3B3C8&currStreakLabel=00FFFF&sideLabels=A3B3C8&dates=A3B3C8" alt="GitHub Streak" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bunnybot1121&theme=radical" alt="Repos Per Language" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bunnybot1121&theme=radical" alt="Most Commit Language" width="32%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bunnybot1121&theme=radical" alt="Profile Details" width="98%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bunnybot1121&theme=radical&utcOffset=5.5" alt="Productive Time" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bunnybot1121&theme=radical" alt="Profile Details" width="65%" />
 </p>
 
 ---
