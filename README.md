@@ -4,7 +4,7 @@
 
 <div align="center">
   <!-- Main Header Image (Absolute URL) -->
-  <img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/umaru-laptop.jpg" width="480" alt="Umaru Laptop"/>
+  <img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/profile-dashboard-artwork.png" width="640" alt="Chintu's Cozy Anime Profile Dashboard"/>
   
   <br/>
   
