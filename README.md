@@ -1,12 +1,16 @@
+<table width="100%" bgcolor="#ffffff" cellpadding="24" cellspacing="0" border="0">
+<tr>
+<td>
+
 <div align="center">
-  <!-- Main Header Image -->
-  <img src="./umaru-laptop.jpg" width="480" alt="Umaru Laptop"/>
+  <!-- Main Header Image (Absolute URL) -->
+  <img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/umaru-laptop.jpg" width="480" alt="Umaru Laptop"/>
   
   <br/>
   
-  <h1>HI THERE! 👋</h1>
-  <p>I'm just an <b>engineering student</b> who loves <b>coding</b>, <b>anime</b> and building <b>cool things</b>!</p>
-  <p><i>"Professional outside, Umaru inside. Let's build something awesome! ✨"</i></p>
+  <h1><font color="#e05c5c">HI THERE! 👋</font></h1>
+  <p><font color="#5d483a">I'm just an <b>engineering student</b> who loves <b>coding</b>, <b>anime</b> and building <b>cool things</b>!</font></p>
+  <p><i><font color="#7c6354">"Professional outside, Umaru inside. Let's build something awesome! ✨"</font></i></p>
 
   <br/>
 
@@ -32,16 +36,17 @@
 </div>
 
 <br/>
+<hr color="#e9d5c1"/>
 
----
+<h2><font color="#ab7f62">⚙️ System Configuration: $ whoami</font></h2>
 
-
-## ⚙️ System Configuration: $ whoami
-
-<table width="100%">
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
 <tr>
-<td width="55%" valign="top" style="border: none;">
-<pre><code># sachin.config.yml
+<td width="55%" valign="top" bgcolor="#ffffff">
+<table bgcolor="#faf6f0" width="100%" cellpadding="12" cellspacing="0" border="0">
+<tr>
+<td>
+<pre><font color="#5d483a"># sachin.config.yml
 
 identity:
   name     : "Sachin Yadav"
@@ -63,46 +68,49 @@ currently_building:
 
 research:
   - "145-Rule Safety-Weighted AI Priority
-     Framework for Municipal Complaints"</code></pre>
+     Framework for Municipal Complaints"</font></pre>
 </td>
-<td width="45%" valign="top" style="border: none; text-align: center;">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bunnybot1121&amp;theme=nord&amp;utcOffset=5.5" width="100%" />
+</tr>
+</table>
+</td>
+<td width="45%" valign="top" align="center" bgcolor="#ffffff">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bunnybot1121&amp;theme=default&amp;utcOffset=5.5" width="100%" />
 <br/><br/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bunnybot1121&amp;theme=nord" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bunnybot1121&amp;theme=default" width="100%" />
 </td>
 </tr>
 </table>
 
 <br/>
+<hr color="#e9d5c1"/>
 
----
+<h2><font color="#ab7f62">🐹 System Diagnostics: Umaru Mode</font></h2>
 
-## 🐹 System Diagnostics: Umaru Mode
-
-<table width="100%">
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
 <tr>
-<td width="33%" valign="top" style="border: none; padding-right: 15px;">
-<h3>🐹 Skills &amp; Tools</h3>
-<table>
+<td width="33%" valign="top" bgcolor="#ffffff">
+<h3><font color="#ab7f62">🐹 Skills &amp; Tools</font></h3>
+<table bgcolor="#fffdfa" width="100%" cellpadding="6" cellspacing="0" border="1" bordercolor="#e9d5c1">
 <tr>
-<td><b>Python</b><br/>★★★★★</td>
-<td><b>C++</b><br/>★★★★☆</td>
+<td><font color="#5d483a"><b>Python</b><br/>★★★★★</font></td>
+<td><font color="#5d483a"><b>C++</b><br/>★★★★☆</font></td>
 </tr>
 <tr>
-<td><b>Java</b><br/>★★★★☆</td>
-<td><b>Arduino</b><br/>★★★★☆</td>
+<td><font color="#5d483a"><b>Java</b><br/>★★★★☆</font></td>
+<td><font color="#5d483a"><b>Arduino</b><br/>★★★★☆</font></td>
 </tr>
 <tr>
-<td><b>Git</b><br/>★★★★☆</td>
-<td><b>Linux</b><br/>★★★★☆</td>
+<td><font color="#5d483a"><b>Git</b><br/>★★★★☆</font></td>
+<td><font color="#5d483a"><b>Linux</b><br/>★★★★☆</font></td>
 </tr>
 <tr>
-<td><b>VS Code</b><br/>★★★★★</td>
-<td><b>Figma</b><br/>★★★☆☆</td>
+<td><font color="#5d483a"><b>VS Code</b><br/>★★★★★</font></td>
+<td><font color="#5d483a"><b>Figma</b><br/>★★★☆☆</font></td>
 </tr>
 </table>
 <br/>
-<h3>📺 Currently...</h3>
+<h3><font color="#ab7f62">📺 Currently...</font></h3>
+<font color="#5d483a">
 <ul>
 <li><b>Coding</b><br/>[█████████░] 90%</li>
 <li><b>AI/ML</b><br/>[███████░░░] 70%</li>
@@ -110,19 +118,27 @@ research:
 <li><b>Learning</b><br/>[██████░░░░] 60%</li>
 <li><b>Anime</b><br/>[██████████] 100%</li>
 </ul>
+</font>
 <br/>
 <div align="center">
-<img src="./umaru-sleeping.jpg" width="100%" alt="Sleeping Umaru"/>
+<img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/umaru-sleeping.jpg" width="100%" alt="Sleeping Umaru"/>
 </div>
 </td>
-<td width="67%" valign="top" style="border: none; padding-left: 15px; border-left: 1px dashed #dfc2a5;">
-<h3>💻 Terminal: umaru@github:~</h3>
-<pre>$ whoami
-&gt; Just a coder who loves turning ideas into reality.
-$ status
-&gt; Building the future, one commit at a time.</pre>
+<td width="67%" valign="top" bgcolor="#ffffff" style="padding-left: 20px;">
+<h3><font color="#ab7f62">💻 Terminal: umaru@github:~</font></h3>
+<table bgcolor="#26211e" width="100%" cellpadding="12" cellspacing="0" border="0">
+<tr>
+<td>
+<pre><font color="#62d196">$ whoami</font>
+<font color="#e6dfd9">&gt; Just a coder who loves turning ideas into reality.</font>
+<font color="#62d196">$ status</font>
+<font color="#f28b62">&gt; Building the future, one commit at a time.</font></pre>
+</td>
+</tr>
+</table>
 <br/>
-<h3>🚩 Featured Projects</h3>
+<h3><font color="#ab7f62">🚩 Featured Projects</font></h3>
+<font color="#5d483a">
 <ul>
 <li>
 <b>🏙️ NagarSevak</b><br/>
@@ -166,28 +182,34 @@ Real-time crisis detection mapping platform aggregating incident reports.<br/>
 🔗 <a href="https://github.com/bunnybot1121">View Repository</a>
 </li>
 </ul>
+</font>
 </td>
 </tr>
 </table>
 
 <br/>
+<hr color="#e9d5c1"/>
 
----
+<h2><font color="#ab7f62">📄 Co-Authored Research Paper</font></h2>
 
-## 📄 Co-Authored Research Paper
-
-> Proposed a 145-rule AI engine that classifies, scores, and routes civic complaints using safety-weighted heuristics and AI inference — co-authored and deployed in **NagarSevak** for NMMC, Kharghar.
->
-> `AI Systems` &nbsp;·&nbsp; `Civic Tech` &nbsp;·&nbsp; `Priority Scheduling` &nbsp;·&nbsp; `Gemini Vision API`
+<table bgcolor="#fffdfa" width="100%" cellpadding="16" cellspacing="0" border="1" bordercolor="#e9d5c1">
+<tr>
+<td>
+<p><font color="#5d483a">Proposed a 145-rule AI engine that classifies, scores, and routes civic complaints using safety-weighted heuristics and AI inference — co-authored and deployed in <b>NagarSevak</b> for NMMC, Kharghar.</font></p>
+<p><font color="#ab7f62"><code>AI Systems</code> &nbsp;·&nbsp; <code>Civic Tech</code> &nbsp;·&nbsp; <code>Priority Scheduling</code> &nbsp;·&nbsp; <code>Gemini Vision API</code></font></p>
+</td>
+</tr>
+</table>
 
 <br/>
+<hr color="#e9d5c1"/>
 
----
+<h2><font color="#ab7f62">🛠️ Cyberdeck Tech Stack</font></h2>
 
-## 🛠️ Cyberdeck Tech Stack
-
-```yaml
-# system_dependencies.sh
+<table bgcolor="#faf6f0" width="100%" cellpadding="12" cellspacing="0" border="0">
+<tr>
+<td>
+<pre><font color="#5d483a"># system_dependencies.sh
 frontend:
   core: [HTML5, CSS3, JavaScript, React, React Native, Vite]
   graphics: [Three.js, Canvas, SVG Animations]
@@ -201,54 +223,53 @@ ai_iot:
   hardware: [ESP32, PyQt6 Dashboard, MQTT Protocols]
 
 tools:
-  devops: [Git, GitHub Actions, Vercel, VS Code, Figma]
-```
+  devops: [Git, GitHub Actions, Vercel, VS Code, Figma]</font></pre>
+</td>
+</tr>
+</table>
 
 <br/>
+<hr color="#e9d5c1"/>
 
----
-
-## ⚡ Git Log Telemetry
+<h2><font color="#ab7f62">⚡ Git Log Telemetry</font></h2>
 
 <div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&amp;theme=nord" height="175" />
-&nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=bunnybot1121&amp;background=faf2e6&amp;border=dfc2a5&amp;stroke=5d483a&amp;ring=f28b62&amp;fire=f28b62&amp;currStreakNum=5d483a&amp;sideNums=5d483a&amp;currStreakLabel=8c7362&amp;sideLabels=8c7362&amp;dates=8c7362&amp;hide_border=false" height="175" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&amp;bg_color=faf2e6&amp;color=5d483a&amp;line=f28b62&amp;point=de5246&amp;area=true&amp;area_color=fdf6ed&amp;hide_border=false&amp;border_color=dfc2a5&amp;title_color=5d483a&amp;custom_title=Subnet+Contribution+Telemetry" width="97%" />
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-snake-dark.svg" width="97%"/>
-</picture>
-
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&amp;theme=default" height="175" />
+  &nbsp;&nbsp;
+  <img src="https://streak-stats.demolab.com/?user=bunnybot1121&amp;background=ffffff&amp;border=dfc2a5&amp;stroke=5d483a&amp;ring=f28b62&amp;fire=f28b62&amp;currStreakNum=5d483a&amp;sideNums=5d483a&amp;currStreakLabel=8c7362&amp;sideLabels=8c7362&amp;dates=8c7362&amp;hide_border=false" height="175" />
+  <br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&amp;bg_color=ffffff&amp;color=5d483a&amp;line=f28b62&amp;point=de5246&amp;area=true&amp;area_color=fdf6ed&amp;hide_border=false&amp;border_color=dfc2a5&amp;title_color=5d483a&amp;custom_title=Subnet+Contribution+Telemetry" width="97%" />
+  <br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/output/github-snake-dark.svg" width="97%"/>
+  </picture>
 </div>
 
 <br/>
+<hr color="#e9d5c1"/>
 
----
+<h2><font color="#ab7f62">📡 Cyberdeck Feed: Real-Time Activity Log</font></h2>
 
-## 📡 Cyberdeck Feed: Real-Time Activity Log
-
+<font color="#5d483a">
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#7](https://github.com/piyushyenorkar/NHAIFaceID/pull/7) in [piyushyenorkar/NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
 2. 💪 Opened PR [#7](https://github.com/piyushyenorkar/NHAIFaceID/pull/7) in [piyushyenorkar/NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
 3. 🎉 Merged PR [#6](https://github.com/piyushyenorkar/NHAIFaceID/pull/6) in [piyushyenorkar/NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
 4. 🗣 Commented on [#6](https://github.com/piyushyenorkar/NHAIFaceID/pull/6#issuecomment-4614160122) in [piyushyenorkar/NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
 <!--END_SECTION:activity-->
+</font>
 
 <br/>
-
----
+<hr color="#e9d5c1"/>
 
 <div align="center">
-  <img src="./umaru-ramen.jpg" width="120" alt="Ramen"/>
+  <img src="https://raw.githubusercontent.com/bunnybot1121/bunnybot1121/main/umaru-ramen.jpg" width="120" alt="Ramen"/>
   <br/>
-  <sub>Neural Link Configured · Core Overclocked · Fueled by Chai ☕</sub>
+  <font color="#7c6354"><sub>Neural Link Configured · Core Overclocked · Fueled by Chai ☕</sub></font>
 </div>
+
+</td>
+</tr>
+</table>
