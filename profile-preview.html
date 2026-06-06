@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sachin Yadav — Umaru Mode Dashboard</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&amp;family=Share+Tech+Mono&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&amp;family=Quicksand:wght@500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap');
     
     * {
       box-sizing: border-box;
@@ -16,8 +16,9 @@
     body {
       background-color: #f6ebd9;
       color: #5d483a;
-      font-family: 'Outfit', sans-serif;
-      padding: 30px 15px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 600;
+      padding: 40px 15px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -61,8 +62,9 @@
     .dot-green { background-color: #27c93f; }
 
     .window-title {
+      font-family: 'Fredoka', sans-serif;
       font-size: 14px;
-      font-weight: 600;
+      font-weight: 700;
       color: #8c7362;
       display: flex;
       align-items: center;
@@ -72,7 +74,7 @@
     /* main grid columns */
     .dashboard-grid {
       display: grid;
-      grid-template-columns: 260px 1fr 280px;
+      grid-template-columns: 270px 1fr 280px;
       gap: 20px;
     }
 
@@ -83,21 +85,23 @@
       border-radius: 8px;
       padding: 16px;
       position: relative;
+      box-shadow: inset 0 0 10px rgba(223, 194, 165, 0.05);
     }
 
     .panel-title {
+      font-family: 'Fredoka', sans-serif;
       font-size: 13px;
-      font-weight: 800;
+      font-weight: 700;
       color: #ab7f62;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
       text-transform: uppercase;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       display: flex;
       align-items: center;
       gap: 6px;
     }
 
-    /* ═══ HEADER PROTOCOL (CENTER & TOP ROW) ═══ */
+    /* ═══ HEADER PROTOCOL ═══ */
     .header-panel {
       grid-column: 1 / -1;
       display: flex;
@@ -114,9 +118,10 @@
     }
 
     .hi-title {
-      font-size: 32px;
-      font-weight: 900;
-      color: #de5246;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      color: #e05c5c;
       margin-bottom: 8px;
       display: flex;
       align-items: center;
@@ -130,46 +135,78 @@
       margin-bottom: 12px;
     }
     .welcome-desc span.highlight {
-      color: #e37e65;
-      font-weight: 600;
+      color: #e07a5f;
+      font-weight: 700;
     }
 
-    .bubble-quote {
-      background-color: #fdf6ed;
-      border: 1.5px dashed #dfc2a5;
-      border-radius: 8px;
-      padding: 10px 14px;
-      font-size: 12.5px;
-      color: #8c7362;
-      position: relative;
+    .bubble-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
       margin-top: 8px;
     }
 
-    .bubble-avatar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+    .bubble-quote {
+      background-color: #fff8f0;
+      border: 1.5px solid #dfc2a5;
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: #7c6354;
+      position: relative;
     }
-    .bubble-avatar img {
-      width: 28px;
-      height: 28px;
+
+    /* speech bubble tail */
+    .bubble-quote::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 14px;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 8px solid #dfc2a5;
+    }
+    .bubble-quote::after {
+      content: '';
+      position: absolute;
+      left: -6.5px;
+      top: 14px;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 8px solid #fff8f0;
+    }
+
+    .bubble-img {
+      width: 44px;
+      height: 44px;
+      border: 1.5px solid #dfc2a5;
       border-radius: 50%;
+      background-color: #fdf6ed;
+      padding: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bubble-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
 
     .center-illustration {
-      width: 320px;
+      width: 330px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
     .center-illustration img {
       max-width: 100%;
-      max-height: 160px;
+      max-height: 170px;
       object-fit: contain;
     }
 
     .about-me-list {
-      width: 250px;
+      width: 260px;
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -179,7 +216,7 @@
     }
 
     .about-me-item {
-      font-size: 12.5px;
+      font-size: 13px;
       display: flex;
       align-items: center;
       gap: 8px;
@@ -196,13 +233,13 @@
     .config-code {
       flex: 1.2;
       background-color: #faf6f0;
-      border: 1px dashed #ebd5c1;
-      border-radius: 6px;
-      padding: 12px;
+      border: 1.5px solid #ebd5c1;
+      border-radius: 8px;
+      padding: 14px;
       font-family: 'Share Tech Mono', monospace;
-      font-size: 11.5px;
+      font-size: 12px;
       color: #5d483a;
-      line-height: 1.4;
+      line-height: 1.45;
       white-space: pre-wrap;
     }
     .config-cards {
@@ -215,15 +252,17 @@
     }
     .config-cards img {
       width: 100%;
-      max-width: 340px;
+      max-width: 320px;
       height: auto;
+      border-radius: 6px;
+      border: 1.5px solid #ebd5c1;
     }
 
     /* ═══ LEFT SIDEBAR: SKILLS ═══ */
     .skills-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px 8px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px 6px;
     }
 
     .skill-item {
@@ -231,27 +270,33 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      background-color: #fdfbf7;
-      border: 1px solid #f2e6d9;
-      border-radius: 6px;
+      background-color: #fffdfa;
+      border: 1px solid #ebd5c1;
+      border-radius: 8px;
       padding: 8px 4px;
     }
 
+    .skill-icon {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      margin-bottom: 4px;
+    }
+
     .skill-name {
-      font-size: 11px;
-      font-weight: 600;
-      margin: 4px 0;
-      color: #5d483a;
+      font-size: 10.5px;
+      font-weight: 700;
+      margin-bottom: 3px;
+      color: #7c6354;
     }
 
     .skill-stars {
-      display: flex;
-      gap: 2px;
-      color: #f3a638;
-      font-size: 9px;
+      color: #f28b62;
+      font-size: 8px;
+      letter-spacing: 0.5px;
     }
 
-    /* ═══ CENTER PROTOCOL: CURRENTLY & PROJECTS ═══ */
+    /* ═══ CENTER PROTOCOL ═══ */
     .center-column {
       display: flex;
       flex-direction: column;
@@ -265,13 +310,13 @@
       display: flex;
       justify-content: space-between;
       font-size: 11.5px;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 4px;
     }
     .bar-bg {
       height: 10px;
       background-color: #fdf6ed;
-      border: 1px solid #ebd5c1;
+      border: 1.5px solid #ebd5c1;
       border-radius: 5px;
       overflow: hidden;
     }
@@ -281,12 +326,29 @@
       border-radius: 5px;
     }
 
+    .currently-bubble {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 14px;
+      border-top: 1px dashed #ebd5c1;
+      padding-top: 12px;
+    }
+    .currently-bubble .bubble-text {
+      background-color: #fff8f0;
+      border: 1.5px solid #dfc2a5;
+      border-radius: 10px;
+      padding: 6px 12px;
+      font-size: 11.5px;
+      color: #7c6354;
+    }
+
     .project-item {
       display: flex;
       gap: 12px;
-      border-bottom: 1px dashed #ebd5c1;
-      padding-bottom: 12px;
-      margin-bottom: 12px;
+      border-bottom: 1.5px dashed #ebd5c1;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
       align-items: flex-start;
     }
     .project-item:last-child {
@@ -295,19 +357,20 @@
       margin-bottom: 0;
     }
     .project-icon {
-      font-size: 20px;
-      width: 32px;
-      height: 32px;
+      font-size: 18px;
+      width: 28px;
+      height: 28px;
       background-color: #fdf6ed;
       border: 1.5px solid #dfc2a5;
       border-radius: 6px;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-shrink: 0;
     }
     .project-info h4 {
       font-size: 13px;
-      font-weight: 800;
+      font-weight: 700;
       color: #5d483a;
       margin-bottom: 2px;
     }
@@ -329,9 +392,9 @@
       background-color: #26211e;
       border: 2px solid #3d3530;
       color: #e6dfd9;
-      font-family: 'Share Tech Mono', monospace;
+      font-family: 'JetBrains Mono', monospace;
       padding: 12px;
-      border-radius: 6px;
+      border-radius: 8px;
       font-size: 11.5px;
       position: relative;
     }
@@ -355,8 +418,9 @@
     .terminal-art {
       color: #de5246;
       font-size: 8px;
-      line-height: 1;
+      line-height: 1.1;
       text-align: right;
+      font-family: monospace;
     }
 
     /* Cheering streak card */
@@ -367,14 +431,14 @@
       gap: 12px;
     }
     .streak-cheering-img {
-      width: 50px;
-      height: 50px;
+      width: 55px;
+      height: 55px;
       object-fit: contain;
     }
     .streak-info {
       flex: 1;
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     /* Contribution Grid simulation */
@@ -387,7 +451,7 @@
     .grid-box {
       width: 10px;
       height: 10px;
-      border-radius: 1px;
+      border-radius: 1.5px;
     }
     .box-0 { background-color: #fdf6ed; border: 1px solid #ebd5c1; }
     .box-1 { background-color: #ffd8bf; }
@@ -411,8 +475,8 @@
       border-radius: 8px;
       padding: 12px;
       text-align: center;
-      font-size: 13px;
-      font-weight: 600;
+      font-size: 13.5px;
+      font-weight: 700;
       color: #8c7362;
       display: flex;
       align-items: center;
@@ -421,8 +485,8 @@
     }
 
     .footer-illustration {
-      width: 80px;
-      height: 50px;
+      width: 90px;
+      height: 60px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -458,19 +522,22 @@
         <div class="welcome-desc">
           I'm just an <span class="highlight">engineering student</span> who loves <span class="highlight">coding</span>, <span class="highlight">anime</span> and building <span class="highlight">cool things</span>!
         </div>
-        <div class="bubble-avatar">
+        <div class="bubble-container">
+          <div class="bubble-img">
+            <img src="./umaru-cheering.jpg" alt="Chibi head"/>
+          </div>
           <div class="bubble-quote">
-            "Professional outside, Umaru inside. Let's build something awesome! ✨"
+            Professional outside, Umaru inside. Let's build something awesome! ✨
           </div>
         </div>
       </div>
       
       <div class="center-illustration">
-        <img src="./umaru-laptop.jpg" alt="Umaru Laptop" onerror="this.src='https://placehold.co/300x160/ffeed9/8c7362?text=umaru-laptop.jpg'"/>
+        <img src="./umaru-laptop.jpg" alt="Umaru Laptop" onerror="this.src='https://placehold.co/300x170/ffeed9/8c7362?text=umaru-laptop.jpg'"/>
       </div>
       
       <div class="about-me-list">
-        <div class="panel-title" style="margin-bottom: 4px;">🐾 About Me</div>
+        <div class="panel-title" style="margin-bottom: 4px; font-family: 'Fredoka', sans-serif;">🐾 About Me</div>
         <div class="about-me-item">🎓 Engineering Student</div>
         <div class="about-me-item">🤖 AI &amp; Robotics Enthusiast</div>
         <div class="about-me-item">💻 C++ | Python | Java</div>
@@ -482,7 +549,7 @@
     <!-- SYSTEM CONFIGURATION PANEL (SPAN ALL) -->
     <div class="panel-card config-panel" style="grid-column: 1 / -1;">
       <div style="width: 100%; display: flex; flex-direction: column; gap: 8px;">
-        <div class="panel-title">⚙️ System Configuration: $ whoami</div>
+        <div class="panel-title">// System Configuration: $ whoami</div>
         <div style="display: flex; gap: 20px;">
           <div class="config-code">
 # sachin.config.yml
@@ -512,39 +579,52 @@ currently_building:
       </div>
     </div>
 
-    <!-- COLUMN 1: SKILLS & TOOLS -->
+    <!-- COLUMN 1: SKILLS & TOOLS (WITH COLOR DEVICONS) -->
     <div class="panel-card">
       <div class="panel-title">🐹 Skills &amp; Tools</div>
       <div class="skills-grid">
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
           <div class="skill-name">Python</div>
           <div class="skill-stars">★★★★★</div>
         </div>
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
           <div class="skill-name">C++</div>
           <div class="skill-stars">★★★★☆</div>
         </div>
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
           <div class="skill-name">Java</div>
           <div class="skill-stars">★★★★☆</div>
         </div>
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino"/>
           <div class="skill-name">Arduino</div>
           <div class="skill-stars">★★★★☆</div>
         </div>
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/>
           <div class="skill-name">Git</div>
           <div class="skill-stars">★★★★☆</div>
         </div>
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/>
           <div class="skill-name">Linux</div>
           <div class="skill-stars">★★★★☆</div>
         </div>
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"/>
           <div class="skill-name">VS Code</div>
           <div class="skill-stars">★★★★★</div>
         </div>
         <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" alt="Blender"/>
+          <div class="skill-name">Blender</div>
+          <div class="skill-stars">★★★☆☆</div>
+        </div>
+        <div class="skill-item">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"/>
           <div class="skill-name">Figma</div>
           <div class="skill-stars">★★★☆☆</div>
         </div>
@@ -572,6 +652,14 @@ currently_building:
           <div class="currently-label"><span>Anime</span><span>100%</span></div>
           <div class="bar-bg"><div class="bar-fill" style="width: 100%;"></div></div>
         </div>
+        <div class="currently-bubble">
+          <div class="bubble-img" style="width: 32px; height: 32px;">
+            <img src="./umaru-cheering.jpg" alt="Eating"/>
+          </div>
+          <div class="bubble-text">
+            Anime is my source code. 🍕
+          </div>
+        </div>
       </div>
 
       <!-- Featured Projects panel -->
@@ -581,24 +669,32 @@ currently_building:
         <div class="project-item">
           <div class="project-icon">🤖</div>
           <div class="project-info">
-            <h4>Bupi — AI Companion</h4>
-            <p>An emotional companion robot that understands your voice and controls IoT devices.</p>
+            <h4>Emotional AI Companion</h4>
+            <p>A robot that understands your emotions (kinda) and controls IoT systems.</p>
           </div>
         </div>
         
         <div class="project-item">
           <div class="project-icon">🏙️</div>
           <div class="project-info">
-            <h4>NagarSevak</h4>
-            <p>Municipal AI complaint platform routing city issues using safety priority metrics.</p>
+            <h4>Municipal AI Scheduler</h4>
+            <p>Optimizing city complaint scheduling using priority weighted rules for NMMC.</p>
           </div>
         </div>
         
         <div class="project-item">
-          <div class="project-icon">🎨</div>
+          <div class="project-icon">✈️</div>
           <div class="project-info">
-            <h4>UIVault</h4>
-            <p>Neo-brutalist UI components built for developers who hate boring layouts.</p>
+            <h4>Remote Control Glider (SIRG)</h4>
+            <p>Flying dreams, literally. Embedded systems aeronautical project.</p>
+          </div>
+        </div>
+        
+        <div class="project-item">
+          <div class="project-icon">👟</div>
+          <div class="project-info">
+            <h4>StepCharge</h4>
+            <p>Energy harvesting smart shoe charging device on the go.</p>
           </div>
         </div>
       </div>
@@ -634,16 +730,15 @@ currently_building:
             <div class="panel-title" style="margin-bottom: 2px;">🔥 STREAK</div>
             <div>Keep going! ✨</div>
           </div>
-          <img class="streak-cheering-img" src="./umaru-cheering.jpg" alt="Cheering" onerror="this.src='https://placehold.co/50x50/ffeed9/8c7362?text=chibi'"/>
+          <img class="streak-cheering-img" src="./umaru-cheering.jpg" alt="Cheering" onerror="this.src='https://placehold.co/55x55/ffeed9/8c7362?text=chibi'"/>
         </div>
       </div>
 
       <!-- GitHub Stats card -->
       <div class="panel-card">
         <div class="panel-title">📊 GitHub Stats</div>
-        <div style="font-size: 11.5px; font-weight: 600;">Total Contributions: 816+</div>
+        <div style="font-size: 11.5px; font-weight: 700;">Total Contributions: 1337+</div>
         <div class="contrib-grid">
-          <!-- Simulation grid of blocks -->
           <div class="grid-box box-0"></div><div class="grid-box box-1"></div><div class="grid-box box-2"></div><div class="grid-box box-3"></div><div class="grid-box box-4"></div>
           <div class="grid-box box-0"></div><div class="grid-box box-1"></div><div class="grid-box box-2"></div><div class="grid-box box-3"></div><div class="grid-box box-4"></div>
           <div class="grid-box box-0"></div><div class="grid-box box-1"></div><div class="grid-box box-2"></div><div class="grid-box box-3"></div><div class="grid-box box-4"></div>
@@ -659,13 +754,13 @@ currently_building:
     <!-- FOOTER PANEL (SPAN ALL) -->
     <div class="footer-panel" style="grid-column: 1 / -1;">
       <div class="footer-illustration">
-        <img src="./umaru-sleeping.jpg" alt="Sleeping" onerror="this.src='https://placehold.co/80x50/ffeed9/8c7362?text=sleeping'"/>
+        <img src="./umaru-sleeping.jpg" alt="Sleeping" onerror="this.src='https://placehold.co/90x60/ffeed9/8c7362?text=sleeping'"/>
       </div>
       <div class="footer-quote">
-        "Work hard in silence. Let your code (and anime) make the noise."
+        Work hard in silence. Let your code (and anime) make the noise.
       </div>
       <div class="footer-illustration">
-        <img src="./umaru-ramen.jpg" alt="Ramen" onerror="this.src='https://placehold.co/80x50/ffeed9/8c7362?text=ramen'"/>
+        <img src="./umaru-ramen.jpg" alt="Ramen" onerror="this.src='https://placehold.co/90x60/ffeed9/8c7362?text=ramen'"/>
       </div>
     </div>
 
