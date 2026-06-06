@@ -1,29 +1,33 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:1a1a1a&height=200&section=header&text=Sachin%20Yadav&fontSize=60&fontColor=ffffff&fontAlignY=55&desc=Full-Stack%20%C2%B7%20AI%20Developer%20%C2%B7%20Civic%20Tech&descSize=16&descAlignY=75&descFontColor=888888&animation=fadeIn" width="100%"/>
-
 <div align="center">
+  <!-- Main Header Image -->
+  <img src="./umaru-laptop.jpg" width="480" alt="Umaru Laptop"/>
+  
+  <br/>
+  
+  <h1>HI THERE! 👋</h1>
+  <p>I'm just an <b>engineering student</b> who loves <b>coding</b>, <b>anime</b> and building <b>cool things</b>!</p>
+  <p><i>"Professional outside, Umaru inside. Let's build something awesome! ✨"</i></p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=1000&color=FFFFFF&center=true&vCenter=true&width=680&lines=Building+AI+that+serves+real+people+%F0%9F%8F%99%EF%B8%8F;Co-author+%E2%80%94+145-Rule+AI+Priority+Framework+%5BResearch%5D;React+%C2%B7+Supabase+%C2%B7+Gemini+API+%C2%B7+Three.js;Always+learning+%E2%80%94+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
+  <br/>
 
-<br/>
+  <a href="mailto:Sachinyadav402107@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&amp;logo=gmail&amp;logoColor=f28b62"/>
+  </a>
+  <a href="https://github.com/bunnybot1121">
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&amp;logo=github&amp;logoColor=f28b62"/>
+  </a>
+  <a href="https://sachin-0.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&amp;logo=vercel&amp;logoColor=f28b62"/>
+  </a>
+  <a href="https://uivault1121.vercel.app">
+    <img src="https://img.shields.io/badge/UIVault-111111?style=for-the-badge&amp;logo=vercel&amp;logoColor=f28b62"/>
+  </a>
 
-<a href="mailto:Sachinyadav402107@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://github.com/bunnybot1121">
-  <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://sachin-0.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-<a href="https://uivault1121.vercel.app">
-  <img src="https://img.shields.io/badge/UIVault-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
+  <br/><br/>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=bunnybot1121&style=flat-square&color=ffffff&label=PROFILE+VIEWS&labelColor=000000" />
-&nbsp;
-<img src="https://img.shields.io/github/followers/bunnybot1121?style=flat-square&color=ffffff&logo=github&label=FOLLOWERS&labelColor=000000" />
+  <img src="https://komarev.com/ghpvc/?username=bunnybot1121&amp;style=flat-square&amp;color=f28b62&amp;label=PROFILE+VIEWS&amp;labelColor=5d483a" />
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/bunnybot1121?style=flat-square&amp;color=f28b62&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=5d483a" />
 
 </div>
 
@@ -31,12 +35,13 @@
 
 ---
 
-## `$ whoami`
+## ⚙️ System Configuration: $ whoami
 
-<table>
-<tr>
-<td width="52%">
-
+<table width="100%">
+  <tr>
+    <!-- Left Column: Config YAML -->
+    <td width="55%" valign="top" style="border: none;">
+      
 ```yaml
 # sachin.config.yml
 
@@ -63,205 +68,178 @@ research:
      Framework for Municipal Complaints"
 ```
 
-</td>
-<td width="48%" align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bunnybot1121&theme=github_dark&utcOffset=5.5" width="100%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bunnybot1121&theme=github_dark" width="100%" />
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ cat research.txt`
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="100%">
-
-### 📄 &nbsp;Co-Authored Research Paper
-
-**"A Safety-Weighted Priority Framework for AI-Based Municipal Complaint Management"**
-
-> Proposed a 145-rule engine that classifies, scores, and routes civic complaints using safety-weighted heuristics and AI inference — deployed in NagarSevak for NMMC, Kharghar.
-
-`AI Systems` &nbsp;·&nbsp; `Civic Tech` &nbsp;·&nbsp; `Priority Scheduling` &nbsp;·&nbsp; `Gemini Vision API`
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## `$ ls ./projects`
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-
-### 🏙️ &nbsp;NagarSevak
-<sub>AI-powered municipal complaint & scheduling platform for NMMC/Kharghar. Packs a 145-rule safety-weighted priority engine, Gemini Vision API for image analysis, and three fully role-separated portals.</sub>
-
-<br/>
-
-![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-000?style=flat-square&logo=supabase&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_API-000?style=flat-square&logo=google&logoColor=white)
-
-<br/>
-
-<a href="https://citizenz.vercel.app"><img src="https://img.shields.io/badge/Citizen_Portal-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-<a href="https://rnmunicipal.vercel.app"><img src="https://img.shields.io/badge/Admin_Portal-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-<a href="https://fieldstaff.vercel.app"><img src="https://img.shields.io/badge/Worker_Portal-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-
-</td>
-    <td valign="top" width="50%">
-
-### 🤖 &nbsp;Bupi — AI Desktop Companion
-<sub>Dual-mode system: desktop AI companion + IoT/robotics orchestrator. Built on PyQt6, faster-whisper, Gemini 1.5 Flash, pyttsx3, and an EventBus architecture. Controls ESP32 devices via MQTT.</sub>
-
-<br/>
-
-![Python](https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-000?style=flat-square&logo=qt&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32/MQTT-000?style=flat-square&logo=espressif&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-
-### 🎨 &nbsp;UIVault
-<sub>Neo-brutalist UI component library. 41+ distinct styles — bold, expressive, production-ready. Built for developers who hate boring design.</sub>
-
-<br/>
-
-![HTML](https://img.shields.io/badge/HTML-000?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-000?style=flat-square&logo=css3&logoColor=white)
-![JS](https://img.shields.io/badge/JS-000?style=flat-square&logo=javascript&logoColor=white)
-
-<br/>
-
-<a href="https://uivault1121.vercel.app"><img src="https://img.shields.io/badge/Live_Site-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
-    <td valign="top" width="50%">
-
-### 🐛 &nbsp;BugHunt
-<sub>AI coding mentor that teaches you *why* you bugged — not just what broke. Features a multiplayer "Among Us"-style collaborative debugging mode.</sub>
-
-<br/>
-
-![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq/Qwen3-000?style=flat-square&logo=lightning&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-
-### 📡 &nbsp;NHAIFaceID
-<sub>Offline React Native facial recognition attendance system. AdaFace IR-18 + BlazeFace + passive liveness detection. Bundle under 18MB, sub-1s latency.</sub>
-
-<br/>
-
-![React Native](https://img.shields.io/badge/React_Native-000?style=flat-square&logo=react&logoColor=white)
-![TFLite](https://img.shields.io/badge/TFLite-000?style=flat-square&logo=tensorflow&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/piyushyenorkar/NHAIFaceID"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
-    <td valign="top" width="50%">
-
-### 🌍 &nbsp;DisasterMap
-<sub>Real-time crisis detection and mapping platform. Built for Build for Chaos hackathon — aggregates live incident data onto a visual threat map.</sub>
-
-<br/>
-
-![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-000?style=flat-square&logo=supabase&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
+    </td>
+    <!-- Right Column: Summary Cards -->
+    <td width="45%" valign="top" style="border: none; text-align: center;">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bunnybot1121&amp;theme=nord&amp;utcOffset=5.5" width="100%" />
+      <br/><br/>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bunnybot1121&amp;theme=nord" width="100%" />
+    </td>
   </tr>
 </table>
 
----
-
-## `$ cat stack.sh`
-
-<div align="center">
-
-**[ FRONTEND ]**
-
-![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white)
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-000000?style=for-the-badge&logo=vite&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-
-**[ BACKEND & DATABASE ]**
-
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**[ AI & EMBEDDED ]**
-
-![Gemini API](https://img.shields.io/badge/Gemini_API-000000?style=for-the-badge&logo=google&logoColor=white)
-![TensorFlow Lite](https://img.shields.io/badge/TFLite-000000?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-000000?style=for-the-badge&logo=qt&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-000000?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
-
-**[ TOOLS & DEPLOYMENT ]**
-
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white)
-
-</div>
+<br/>
 
 ---
 
-## `$ git log --stat`
+## 🐹 System Diagnostics: Umaru Mode
+
+<table width="100%">
+  <tr>
+    <!-- LEFT SIDEBAR: Skills & Meters -->
+    <td width="33%" valign="top" style="border: none; padding-right: 15px;">
+      
+      <h3>🐹 Skills &amp; Tools</h3>
+      <table>
+        <tr>
+          <td><b>Python</b><br/>★★★★★</td>
+          <td><b>C++</b><br/>★★★★☆</td>
+        </tr>
+        <tr>
+          <td><b>Java</b><br/>★★★★☆</td>
+          <td><b>Arduino</b><br/>★★★★☆</td>
+        </tr>
+        <tr>
+          <td><b>Git</b><br/>★★★★☆</td>
+          <td><b>Linux</b><br/>★★★★☆</td>
+        </tr>
+        <tr>
+          <td><b>VS Code</b><br/>★★★★★</td>
+          <td><b>Figma</b><br/>★★★☆☆</td>
+        </tr>
+      </table>
+      
+      <br/>
+      
+      <h3>📺 Currently...</h3>
+      <ul>
+        <li><b>Coding</b> <br/> [█████████░] 90%</li>
+        <li><b>AI/ML</b> <br/> [███████░░░] 70%</li>
+        <li><b>Robotics</b> <br/> [████████░░] 80%</li>
+        <li><b>Learning</b> <br/> [██████░░░░] 60%</li>
+        <li><b>Anime</b> <br/> [██████████] 100%</li>
+      </ul>
+      
+      <br/>
+      
+      <!-- Sleeping chibi illustration -->
+      <div align="center">
+        <img src="./umaru-sleeping.jpg" width="100%" alt="Sleeping Umaru"/>
+      </div>
+      
+    </td>
+    
+    <!-- MAIN CONTENT: Terminal & Projects -->
+    <td width="67%" valign="top" style="border: none; padding-left: 15px; border-left: 1px dashed #dfc2a5;">
+
+      <h3>💻 Terminal: umaru@github:~</h3>
+      <pre>
+$ whoami
+&gt; Just a coder who loves turning ideas into reality.
+$ status
+&gt; Building the future, one commit at a time.
+      </pre>
+
+      <br/>
+
+      <h3>🚩 Featured Projects</h3>
+      <ul>
+        <li>
+          <b>🏙️ NagarSevak</b><br/>
+          Deployed municipal AI complaints platform with 145-rule scheduling &amp; portals.<br/>
+          <code>React</code> <code>Supabase</code> <code>Gemini API</code><br/>
+          🔗 <a href="https://citizenz.vercel.app">Citizen</a> · <a href="https://rnmunicipal.vercel.app">Admin</a> · <a href="https://fieldstaff.vercel.app">Worker</a>
+        </li>
+        <br/>
+        <li>
+          <b>🤖 Bupi — AI Companion</b><br/>
+          PyQt6 desktop assistant &amp; IoT controller using Gemini 1.5 Flash &amp; MQTT.<br/>
+          <code>Python</code> <code>PyQt6</code> <code>ESP32 / MQTT</code><br/>
+          🔗 <a href="https://github.com/bunnybot1121">View Repository</a>
+        </li>
+        <br/>
+        <li>
+          <b>🎨 UIVault</b><br/>
+          Neo-brutalist UI components built for developers who hate boring layouts.<br/>
+          <code>HTML</code> <code>CSS</code> <code>JavaScript</code><br/>
+          🔗 <a href="https://uivault1121.vercel.app">Live Site</a> · <a href="https://github.com/bunnybot1121">View Repository</a>
+        </li>
+        <br/>
+        <li>
+          <b>🐛 BugHunt</b><br/>
+          AI coding mentor with collaborative debugging mode (Among Us style).<br/>
+          <code>React</code> <code>Node.js</code> <code>Qwen-3 (Groq)</code><br/>
+          🔗 <a href="https://github.com/bunnybot1121">View Repository</a>
+        </li>
+        <br/>
+        <li>
+          <b>📡 NHAIFaceID</b><br/>
+          Offline face recognition attendance (AdaFace + BlazeFace, &lt;18MB).<br/>
+          <code>React Native</code> <code>TFLite</code><br/>
+          🔗 <a href="https://github.com/piyushyenorkar/NHAIFaceID">View Repository</a>
+        </li>
+        <br/>
+        <li>
+          <b>🌍 DisasterMap</b><br/>
+          Real-time crisis mapping platform aggregating incident reports.<br/>
+          <code>React</code> <code>Supabase</code><br/>
+          🔗 <a href="https://github.com/bunnybot1121">View Repository</a>
+        </li>
+      </ul>
+      
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+## 📄 Co-Authored Research Paper
+
+> Proposed a 145-rule AI engine that classifies, scores, and routes civic complaints using safety-weighted heuristics and AI inference — co-authored and deployed in **NagarSevak** for NMMC, Kharghar.
+>
+> `AI Systems` &nbsp;·&nbsp; `Civic Tech` &nbsp;·&nbsp; `Priority Scheduling` &nbsp;·&nbsp; `Gemini Vision API`
+
+<br/>
+
+---
+
+## 🛠️ Cyberdeck Tech Stack
+
+```yaml
+# system_dependencies.sh
+frontend:
+  core: [HTML5, CSS3, JavaScript, React, React Native, Vite]
+  graphics: [Three.js, Canvas, SVG Animations]
+
+backend_db:
+  servers: [Node.js, Express, Python, FastAPI]
+  database: [Supabase, PostgreSQL, SQLite]
+
+ai_iot:
+  engines: [Gemini API, TensorFlow Lite, Qwen-3 (Groq)]
+  hardware: [ESP32, PyQt6 Dashboard, MQTT Protocols]
+
+tools:
+  devops: [Git, GitHub Actions, Vercel, VS Code, Figma]
+```
+
+<br/>
+
+---
+
+## ⚡ Git Log Telemetry
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&theme=github_dark" height="175" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&amp;theme=nord" height="175" />
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=000000&border=333333&stroke=333333&ring=ffffff&fire=cccccc&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=aaaaaa&sideLabels=aaaaaa&dates=666666&hide_border=false" height="175" />
+<img src="https://streak-stats.demolab.com/?user=bunnybot1121&amp;background=faf2e6&amp;border=dfc2a5&amp;stroke=5d483a&amp;ring=f28b62&amp;fire=f28b62&amp;currStreakNum=5d483a&amp;sideNums=5d483a&amp;currStreakLabel=8c7362&amp;sideLabels=8c7362&amp;dates=8c7362&amp;hide_border=false" height="175" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=000000&color=ffffff&line=444444&point=ffffff&area=true&area_color=1a1a1a&hide_border=false&border_color=333333&title_color=ffffff&custom_title=Contribution+Activity" width="97%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&amp;bg_color=faf2e6&amp;color=5d483a&amp;line=f28b62&amp;point=de5246&amp;area=true&amp;area_color=fdf6ed&amp;hide_border=false&amp;border_color=dfc2a5&amp;title_color=5d483a&amp;custom_title=Subnet+Contribution+Telemetry" width="97%" />
 
 <br/>
 
@@ -273,9 +251,11 @@ research:
 
 </div>
 
+<br/>
+
 ---
 
-## `$ tail -f activity.log`
+## 📡 Cyberdeck Feed: Real-Time Activity Log
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#7](https://github.com/piyushyenorkar/NHAIFaceID/pull/7) in [piyushyenorkar/NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
@@ -284,10 +264,12 @@ research:
 4. 🗣 Commented on [#6](https://github.com/piyushyenorkar/NHAIFaceID/pull/6#issuecomment-4614160122) in [piyushyenorkar/NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
 <!--END_SECTION:activity-->
 
+<br/>
+
 ---
 
 <div align="center">
-  <sub>Built with obsession · Shipped with purpose · Powered by chai ☕</sub>
+  <img src="./umaru-ramen.jpg" width="120" alt="Ramen"/>
+  <br/>
+  <sub>Neural Link Configured · Core Overclocked · Fueled by Chai ☕</sub>
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:111111,100:000000&height=130&section=footer" width="100%"/>
