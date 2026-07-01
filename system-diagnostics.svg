@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@500;700&amp;display=swap');
+      
+      .bg { fill: #0d1117; }
+      .grid-line { stroke: #21262d; stroke-width: 0.5; }
+      .border-panel { fill: none; stroke: #30363d; stroke-width: 1; }
+      
+      .text-primary { fill: #f0f6fc; font-family: 'Share Tech Mono', monospace; }
+      .text-accent { fill: #ffffff; font-family: 'Share Tech Mono', monospace; text-shadow: 0 0 5px rgba(255, 255, 255, 0.4); }
+      .text-muted { fill: #8b949e; font-family: 'Share Tech Mono', monospace; }
+      
+      .col-header { font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 10.5; fill: #f0f6fc; letter-spacing: 1.5; }
+      .label-text { fill: #8b949e; font-weight: bold; }
+      .val-text { fill: #f0f6fc; font-weight: bold; }
+      
+      .bar-bg { fill: #161b22; stroke: #30363d; stroke-width: 0.8; }
+      .bar-fill { fill: #ffffff; filter: url(#glow-light); }
+      
+      .pulse-slow { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.4; }
+      }
+    </style>
+    <filter id="glow-light">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" class="bg"/>
+  
+  <!-- Subtle Grid lines -->
+  <g opacity="0.3">
+    <line x1="0" y1="50" x2="900" y2="50" class="grid-line"/>
+    <line x1="0" y1="100" x2="900" y2="100" class="grid-line"/>
+    <line x1="0" y1="150" x2="900" y2="150" class="grid-line"/>
+    <line x1="0" y1="200" x2="900" y2="200" class="grid-line"/>
+    <line x1="0" y1="250" x2="900" y2="250" class="grid-line"/>
+    <line x1="300" y1="0" x2="300" y2="300" class="grid-line"/>
+    <line x1="600" y1="0" x2="600" y2="300" class="grid-line"/>
+  </g>
+
+  <!-- Panel Borders -->
+  <rect x="15" y="15" width="870" height="270" class="border-panel" rx="3"/>
+  <line x1="300" y1="15" x2="300" y2="285" stroke="#30363d" stroke-width="1"/>
+  <line x1="600" y1="15" x2="600" y2="285" stroke="#30363d" stroke-width="1"/>
+
+  <!-- ═══ COLUMN 1: AGENT DATA ═══ -->
+  <g transform="translate(35, 30)">
+    <text x="0" y="15" class="col-header">// SYSTEM_IDENTITY</text>
+    <line x1="0" y1="23" x2="230" y2="23" stroke="#30363d" stroke-width="1"/>
+    
+    <g transform="translate(0, 45)" font-family="Share Tech Mono, monospace" font-size="11.5">
+      <text x="0" y="15" class="label-text">AGENT    »</text>
+      <text x="80" y="15" class="val-text">Sachin Yadav</text>
+
+      <text x="0" y="40" class="label-text">ROLE     »</text>
+      <text x="80" y="40" class="text-accent" font-weight="bold">Full-Stack AI Developer</text>
+
+      <text x="0" y="65" class="label-text">ACADEMIC »</text>
+      <text x="80" y="65" class="val-text">2nd Yr, Computer Eng.</text>
+
+      <text x="0" y="90" class="label-text">LOCATION »</text>
+      <text x="80" y="90" class="val-text">Navi Mumbai, IN 🇮🇳</text>
+
+      <text x="0" y="115" class="label-text">COLLEGE  »</text>
+      <text x="80" y="115" class="val-text">Saraswati College of Eng</text>
+
+      <text x="0" y="140" class="label-text">STATUS   »</text>
+      <text x="80" y="140" fill="#2ea043" font-weight="bold">● STEADY_GROWTH</text>
+      
+      <!-- Mini status signal -->
+      <rect x="0" y="175" width="80" height="16" fill="none" stroke="#30363d" stroke-width="1" rx="2"/>
+      <text x="8" y="187" class="text-accent" font-size="9" font-weight="bold">// ONLINE</text>
+    </g>
+  </g>
+
+  <!-- ═══ COLUMN 2: CORE focus ═══ -->
+  <g transform="translate(330, 30)">
+    <text x="0" y="15" class="col-header">// SKILL_DIAGNOSTICS</text>
+    <line x1="0" y1="23" x2="230" y2="23" stroke="#30363d" stroke-width="1"/>
+    
+    <g transform="translate(0, 45)" font-family="Share Tech Mono, monospace" font-size="11">
+      <!-- Item 1 -->
+      <text x="0" y="10" class="val-text">AI INTEGRATION &amp; CIVIC TECH</text>
+      <text x="210" y="10" class="text-accent">95%</text>
+      <rect x="0" y="18" width="230" height="7" class="bar-bg" rx="1.5"/>
+      <rect x="0" y="18" width="218" height="7" class="bar-fill" rx="1.5"/>
+
+      <!-- Item 2 -->
+      <text x="0" y="55" class="val-text">FULL-STACK WEB DEVELOPMENT</text>
+      <text x="210" y="55" class="text-accent">85%</text>
+      <rect x="0" y="63" width="230" height="7" class="bar-bg" rx="1.5"/>
+      <rect x="0" y="63" width="195" height="7" class="bar-fill" rx="1.5"/>
+
+      <!-- Item 3 -->
+      <text x="0" y="100" class="val-text">IOT &amp; EMBEDDED SYSTEMS (ESP32)</text>
+      <text x="210" y="100" class="text-accent">75%</text>
+      <rect x="0" y="108" width="230" height="7" class="bar-bg" rx="1.5"/>
+      <rect x="0" y="108" width="172" height="7" class="bar-fill" rx="1.5"/>
+
+      <!-- Item 4 -->
+      <text x="0" y="145" class="val-text">RESEARCH &amp; OPEN SOURCE</text>
+      <text x="210" y="145" class="text-accent">90%</text>
+      <rect x="0" y="153" width="230" height="7" class="bar-bg" rx="1.5"/>
+      <rect x="0" y="153" width="207" height="7" class="bar-fill" rx="1.5"/>
+    </g>
+  </g>
+
+  <!-- ═══ COLUMN 3: ACTIVE PROCESSES ═══ -->
+  <g transform="translate(630, 30)">
+    <text x="0" y="15" class="col-header">// ACTIVE_PROCESSES</text>
+    <line x1="0" y1="23" x2="230" y2="23" stroke="#30363d" stroke-width="1"/>
+    
+    <g transform="translate(0, 45)" font-family="Share Tech Mono, monospace" font-size="11">
+      <!-- Process 1 -->
+      <text x="0" y="10" class="val-text">NagarSevak.sys</text>
+      <text x="0" y="24" class="text-muted" font-size="9">[ ACTIVE // CIVIC_PLATFORM ]</text>
+      <rect x="150" y="0" width="8" height="24" fill="#30363d" rx="1"/>
+      <rect x="150" y="0" width="8" height="24" class="bar-fill" class="pulse-slow" rx="1"/>
+
+      <!-- Process 2 -->
+      <text x="0" y="55" class="val-text">Bupi_Companion.bin</text>
+      <text x="0" y="69" class="text-muted" font-size="9">[ CALIBRATING // ASSISTANT ]</text>
+      <rect x="150" y="45" width="8" height="24" fill="#30363d" rx="1"/>
+      <rect x="150" y="45" width="8" height="24" class="bar-fill" rx="1"/>
+
+      <!-- Process 3 -->
+      <text x="0" y="100" class="val-text">NHAIFaceID.apk</text>
+      <text x="0" y="114" class="text-muted" font-size="9">[ READY // OFFLINE_FACE ]</text>
+      <rect x="150" y="90" width="8" height="24" fill="#30363d" rx="1"/>
+      <rect x="150" y="90" width="8" height="24" class="bar-fill" rx="1"/>
+    </g>
+    
+    <!-- Minimal Telemetry Graph at bottom-right of column 3 -->
+    <g transform="translate(170, 160)">
+      <rect x="-10" y="-15" width="60" height="50" fill="none" stroke="#21262d" stroke-width="1" rx="2"/>
+      <path d="M -5,25 L 5,10 L 15,30 L 25,5 L 35,20 L 45,0" fill="none" stroke="#ffffff" stroke-width="1" class="pulse-slow"/>
+      <text x="-10" y="45" class="text-muted" font-size="8">DATA STREAM</text>
+    </g>
+  </g>
+</svg>

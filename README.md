@@ -66,8 +66,7 @@ research:
 </td>
 <td width="48%" align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bunnybot1121&theme=github_dark&utcOffset=5.5" width="100%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bunnybot1121&theme=github_dark" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&border_color=333333&hide_border=false" width="100%" />
 
 </td>
 </tr>
@@ -101,109 +100,95 @@ research:
 
 ## `$ ls ./projects`
 
-<table>
+<table width="100%">
   <tr>
     <td valign="top" width="50%">
 
 ### 🏙️ &nbsp;NagarSevak
-<sub>AI-powered municipal complaint & scheduling platform for NMMC/Kharghar. Packs a 145-rule safety-weighted priority engine, Gemini Vision API for image analysis, and three fully role-separated portals.</sub>
+<sub>AI-powered municipal complaint &amp; scheduling platform for NMMC/Kharghar</sub>
 
-<br/>
+```yaml
+priority : "145-rule safety-weighted scheduler"
+vision   : "Gemini Vision API damage classification"
+stack    : "React · Supabase · Gemini API · Vercel"
+```
+[Citizen Portal](https://citizenz.vercel.app) &nbsp;·&nbsp; [Admin Portal](https://rnmunicipal.vercel.app) &nbsp;·&nbsp; [Worker Portal](https://fieldstaff.vercel.app)
 
-![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-000?style=flat-square&logo=supabase&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_API-000?style=flat-square&logo=google&logoColor=white)
-
-<br/>
-
-<a href="https://citizenz.vercel.app"><img src="https://img.shields.io/badge/Citizen_Portal-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-<a href="https://rnmunicipal.vercel.app"><img src="https://img.shields.io/badge/Admin_Portal-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-<a href="https://fieldstaff.vercel.app"><img src="https://img.shields.io/badge/Worker_Portal-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-
-</td>
+    </td>
     <td valign="top" width="50%">
 
-### 🤖 &nbsp;Bupi — AI Desktop Companion
-<sub>Dual-mode system: desktop AI companion + IoT/robotics orchestrator. Built on PyQt6, faster-whisper, Gemini 1.5 Flash, pyttsx3, and an EventBus architecture. Controls ESP32 devices via MQTT.</sub>
+### 🤖 &nbsp;Bupi — AI Companion
+<sub>Dual-mode desktop companion + IoT robotics orchestrator</sub>
 
-<br/>
+```yaml
+voice_ai : "faster-whisper (STT) + pyttsx3 (TTS)"
+model    : "Gemini 1.5 Flash via EventBus logic"
+iot_mqtt : "ESP32 device orchestration via MQTT"
+stack    : "Python · PyQt6 · MQTT · ESP32"
+```
+[View Repository](https://github.com/bunnybot1121)
 
-![Python](https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-000?style=flat-square&logo=qt&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32/MQTT-000?style=flat-square&logo=espressif&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
+    </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
 
 ### 🎨 &nbsp;UIVault
-<sub>Neo-brutalist UI component library. 41+ distinct styles — bold, expressive, production-ready. Built for developers who hate boring design.</sub>
+<sub>Neo-brutalist UI component library with bold, expressive styles</sub>
 
-<br/>
+```yaml
+library  : "41+ distinct production-ready styles"
+design   : "Neo-brutalist custom layouts"
+concept  : "Lightweight, dependency-free vanilla"
+stack    : "HTML5 · CSS3 · Vanilla JavaScript"
+```
+[Live Site](https://uivault1121.vercel.app) &nbsp;·&nbsp; [View Repository](https://github.com/bunnybot1121)
 
-![HTML](https://img.shields.io/badge/HTML-000?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-000?style=flat-square&logo=css3&logoColor=white)
-![JS](https://img.shields.io/badge/JS-000?style=flat-square&logo=javascript&logoColor=white)
-
-<br/>
-
-<a href="https://uivault1121.vercel.app"><img src="https://img.shields.io/badge/Live_Site-ffffff?style=flat-square&logo=vercel&logoColor=black" /></a>
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
+    </td>
     <td valign="top" width="50%">
 
 ### 🐛 &nbsp;BugHunt
-<sub>AI coding mentor that teaches you *why* you bugged — not just what broke. Features a multiplayer "Among Us"-style collaborative debugging mode.</sub>
+<sub>AI coding mentor and collaborative multiplayer debugging platform</sub>
 
-<br/>
+```yaml
+mentoring: "AI tutor explaining bug mechanics"
+social   : "Among Us-style coop debug lobby"
+ai_core  : "Groq API + Qwen 2.5/72B inference"
+stack    : "React · Node.js · Express · Groq"
+```
+[View Repository](https://github.com/bunnybot1121)
 
-![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq/Qwen3-000?style=flat-square&logo=lightning&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
+    </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
 
 ### 📡 &nbsp;NHAIFaceID
-<sub>Offline React Native facial recognition attendance system. AdaFace IR-18 + BlazeFace + passive liveness detection. Bundle under 18MB, sub-1s latency.</sub>
+<sub>Offline React Native facial recognition attendance system for field staff</sub>
 
-<br/>
+```yaml
+tracking : "AdaFace IR-18 + BlazeFace models"
+liveness : "Passive optical flow verification"
+metrics  : "Sub-1s latency, bundle under 18MB"
+stack    : "React Native · TensorFlow Lite"
+```
+[View Repository](https://github.com/piyushyenorkar/NHAIFaceID)
 
-![React Native](https://img.shields.io/badge/React_Native-000?style=flat-square&logo=react&logoColor=white)
-![TFLite](https://img.shields.io/badge/TFLite-000?style=flat-square&logo=tensorflow&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/piyushyenorkar/NHAIFaceID"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
+    </td>
     <td valign="top" width="50%">
 
 ### 🌍 &nbsp;DisasterMap
-<sub>Real-time crisis detection and mapping platform. Built for Build for Chaos hackathon — aggregates live incident data onto a visual threat map.</sub>
+<sub>Real-time crisis detection, threat mapping, and routing platform</sub>
 
-<br/>
+```yaml
+telemetry: "Aggregates live incident reports"
+mapping  : "Interactive dynamic threat grids"
+event    : "Build for Chaos Hackathon entry"
+stack    : "React · Supabase · Mapbox API"
+```
+[View Repository](https://github.com/bunnybot1121)
 
-![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-000?style=flat-square&logo=supabase&logoColor=white)
-
-<br/>
-
-<a href="https://github.com/bunnybot1121"><img src="https://img.shields.io/badge/View_Repo-000000?style=flat-square&logo=github&logoColor=white" /></a>
-
-</td>
+    </td>
   </tr>
 </table>
 
@@ -211,43 +196,46 @@ research:
 
 ## `$ cat stack.sh`
 
-<div align="center">
-
-**[ FRONTEND ]**
-
-![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white)
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-000000?style=for-the-badge&logo=vite&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-
-**[ BACKEND & DATABASE ]**
-
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**[ AI & EMBEDDED ]**
-
-![Gemini API](https://img.shields.io/badge/Gemini_API-000000?style=for-the-badge&logo=google&logoColor=white)
-![TensorFlow Lite](https://img.shields.io/badge/TFLite-000000?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-000000?style=for-the-badge&logo=qt&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-000000?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
-
-**[ TOOLS & DEPLOYMENT ]**
-
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white)
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>💻 Frontend</strong><br/><br/>
+      <img src="https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-000000?style=flat-square&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/React_Native-000000?style=flat-square&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=white" />
+      <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>⚡ Backend &amp; Database</strong><br/><br/>
+      <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-000000?style=flat-square&logo=supabase&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🧠 AI &amp; Embedded</strong><br/><br/>
+      <img src="https://img.shields.io/badge/Gemini_API-000000?style=flat-square&logo=google&logoColor=white" />
+      <img src="https://img.shields.io/badge/TFLite-000000?style=flat-square&logo=tensorflow&logoColor=white" />
+      <img src="https://img.shields.io/badge/PyQt6-000000?style=flat-square&logo=qt&logoColor=white" />
+      <img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" />
+      <img src="https://img.shields.io/badge/MQTT-000000?style=flat-square&logo=eclipse-mosquitto&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>🛠️ Tools &amp; Devops</strong><br/><br/>
+      <img src="https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=flat-square&logo=githubactions&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+      <img src="https://img.shields.io/badge/VS_Code-000000?style=flat-square&logo=visualstudiocode&logoColor=white" />
+      <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -255,7 +243,7 @@ research:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bunnybot1121&theme=github_dark" height="175" />
+<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&border_color=333333&hide_border=false" height="175" />
 &nbsp;&nbsp;
 <img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=000000&border=333333&stroke=333333&ring=ffffff&fire=cccccc&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=aaaaaa&sideLabels=aaaaaa&dates=666666&hide_border=false" height="175" />
 
