@@ -66,7 +66,7 @@ research:
 </td>
 <td width="48%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=bunnybot1121&layout=compact&bg_color=05070a&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=21262d&hide_border=false" width="100%" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs?username=bunnybot1121&layout=compact&bg_color=05070a&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=21262d&hide_border=false" width="100%" />
 
 </td>
 </tr>
@@ -76,9 +76,9 @@ research:
 
 ## `$ cat research.txt`
 
-<p align="center">
-  <img src="./research-paper.svg" width="100%" alt="Co-Authored Research Paper" />
-</p>
+<img src="./research-paper.svg" width="100%" alt="Co-Authored Research Paper" />
+
+<br/>
 
 ---
 
@@ -91,9 +91,9 @@ AI-powered municipal complaint and scheduling platform designed for NMMC/Khargha
 *   **Stack:** `React` · `Supabase` · `Gemini API` · `Vercel`
 *   **Portals:** [Citizen Portal](https://citizenz.vercel.app) &nbsp;·&nbsp; [Admin Portal](https://rnmunicipal.vercel.app) &nbsp;·&nbsp; [Worker Portal](https://fieldstaff.vercel.app)
 
-<p align="center">
-  <img src="./nagar-sevak-demo.svg" width="100%" alt="NagarSevak Dashboard Preview" />
-</p>
+<img src="./nagar-sevak-demo.svg" width="100%" alt="NagarSevak Dashboard Preview" />
+
+<br/>
 
 <br/>
 
@@ -104,9 +104,9 @@ Dual-mode system serving as a desktop AI companion and an IoT/robotics device or
 *   **Stack:** `Python` · `PyQt6` · `MQTT` · `ESP32`
 *   **Repository:** [View Codebase](https://github.com/bunnybot1121)
 
-<p align="center">
-  <img src="./bupi-demo.svg" width="100%" alt="Bupi AI Companion Preview" />
-</p>
+<img src="./bupi-demo.svg" width="100%" alt="Bupi AI Companion Preview" />
+
+<br/>
 
 <br/>
 
@@ -117,9 +117,9 @@ A bold, expressive, and production-ready neo-brutalist UI component library.
 *   **Stack:** `HTML5` · `CSS3` · `Vanilla JavaScript`
 *   **Links:** [Live Library](https://uivault1121.vercel.app) &nbsp;·&nbsp; [View Codebase](https://github.com/bunnybot1121)
 
-<p align="center">
-  <img src="./ui-vault-demo.svg" width="100%" alt="UIVault Preview" />
-</p>
+<img src="./ui-vault-demo.svg" width="100%" alt="UIVault Preview" />
+
+<br/>
 
 <br/>
 
@@ -130,9 +130,9 @@ Interactive AI coding mentor that explains the mechanics of bugs alongside multi
 *   **Stack:** `React` · `Node.js` · `Express` · `Groq`
 *   **Repository:** [View Codebase](https://github.com/bunnybot1121)
 
-<p align="center">
-  <img src="./bug-hunt-demo.svg" width="100%" alt="BugHunt Coding Mentor Preview" />
-</p>
+<img src="./bug-hunt-demo.svg" width="100%" alt="BugHunt Coding Mentor Preview" />
+
+<br/>
 
 ---
 
@@ -167,7 +167,7 @@ tools_devops=("Git" "GitHub Actions" "Vercel" "VS Code" "Figma")
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=05070a&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=21262d&hide_border=false" height="175" />
+<img src="https://github-stats-extended.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=05070a&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=21262d&hide_border=false" height="175" />
 &nbsp;&nbsp;
 <img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=05070a&border=21262d&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=false" height="175" />
 
