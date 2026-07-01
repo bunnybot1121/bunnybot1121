@@ -35,7 +35,7 @@
 
 <table>
 <tr>
-<td width="52%">
+<td width="52%" valign="top">
 
 ```text
 # sachin.config.yml
@@ -64,7 +64,7 @@ research:
 ```
 
 </td>
-<td width="48%" align="center">
+<td width="48%" align="center" valign="top">
 
 <img src="https://github-stats-extended.vercel.app/api/top-langs?username=bunnybot1121&layout=compact&bg_color=05070a&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=21262d&hide_border=false" width="100%" />
 
