@@ -2,15 +2,15 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
-      .bg { fill: #FDF6EC; }
-      .border { fill: none; stroke: #EBDCB9; stroke-width: 1.5; }
-      .grid { stroke: #FFEAD2; stroke-width: 0.5; opacity: 0.8; }
-      .panel-border { fill: none; stroke: #EBDCB9; stroke-width: 1; }
-      .text-primary { fill: #4A2F13; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
-      .text-muted { fill: #8A6F53; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
-      .text-accent { fill: #D06A1A; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
-      .status-dot { fill: #D06A1A; }
-      .bug-highlight { fill: none; stroke: #D06A1A; stroke-width: 1.5; }
+      .bg { fill: #05070a; }
+      .border { fill: none; stroke: #21262d; stroke-width: 1.5; }
+      .grid { stroke: #161b22; stroke-width: 0.5; }
+      .panel-border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .text-primary { fill: #f0f6fc; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
+      .text-muted { fill: #8b949e; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
+      .text-accent { fill: #ffffff; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
+      .status-dot { fill: #2ea043; }
+      .bug-highlight { fill: none; stroke: #ffffff; stroke-width: 1.5; }
     </style>
   </defs>
 
@@ -41,47 +41,47 @@
   <!-- Header -->
   <g transform="translate(20, 30)">
     <text x="0" y="0" class="text-accent" font-size="14">// SYSTEM: BUGHUNT // AI_DEBUGGING_ENVIRONMENT</text>
-    <text x="540" y="0" class="text-muted">PROC: bughunt_core.exe</text>
-    <circle cx="710" cy="-4" r="5" class="status-dot"/>
-    <text x="720" y="0" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="11px">CORE_ONLINE</text>
-    <line x1="0" y1="12" x2="760" y2="12" stroke="#EBDCB9" stroke-width="1.5"/>
+    <text x="580" y="0" class="text-muted">PROC: bughunt_core.exe</text>
+    <circle cx="750" cy="-4" r="5" class="status-dot"/>
+    <text x="760" y="0" fill="#2ea043" font-family="'Share Tech Mono', monospace" font-size="11px">ACTIVE</text>
+    <line x1="0" y1="12" x2="760" y2="12" stroke="#30363d" stroke-width="1"/>
   </g>
 
   <!-- Left Panel: Code Editor -->
   <g transform="translate(20, 65)">
     <rect width="380" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ CODE_EDITOR_DIAGNOSTICS ]</text>
-    <line x1="15" y1="35" x2="365" y2="35" stroke="#EBDCB9" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="365" y2="35" stroke="#21262d" stroke-width="0.8"/>
 
     <!-- Editor Wireframe -->
     <g transform="translate(15, 55)" font-family="monospace" font-size="11px">
       <!-- Line 1 -->
-      <text x="0" y="15" fill="#8A6F53">1: function processUser(user) {</text>
+      <text x="0" y="15" fill="#8b949e">1: function processUser(user) {</text>
       <!-- Line 2 -->
-      <text x="0" y="35" fill="#8A6F53">2:   if (user.id === null) {</text>
+      <text x="0" y="35" fill="#8b949e">2:   if (user.id === null) {</text>
       <!-- Line 3 with error -->
-      <text x="0" y="55" fill="#4A2F13" font-weight="bold">3:     throw new Error("User ID is missing!");</text>
+      <text x="0" y="55" fill="#ffffff" font-weight="bold">3:     throw new Error("User ID is missing!");</text>
       <!-- Bounding box representing IDE error highlighting -->
       <rect x="35" y="42" width="280" height="18" class="bug-highlight"/>
       
       <!-- Line 4 -->
-      <text x="0" y="75" fill="#8A6F53">4:   }</text>
+      <text x="0" y="75" fill="#8b949e">4:   }</text>
       <!-- Line 5 -->
-      <text x="0" y="95" fill="#8A6F53">5:   return database.fetchProfile(user.id);</text>
+      <text x="0" y="95" fill="#8b949e">5:   return database.fetchProfile(user.id);</text>
       <!-- Line 6 -->
-      <text x="0" y="115" fill="#8A6F53">6: }</text>
+      <text x="0" y="115" fill="#8b949e">6: }</text>
     </g>
 
     <!-- Error warning banner -->
     <g transform="translate(15, 205)">
-      <rect width="350" height="35" fill="#FFEAD2" stroke="#D06A1A" stroke-width="1"/>
-      <text x="12" y="21" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="10px" font-weight="bold">CRITICAL BUG: Thread crash on user.id resolution</text>
+      <rect width="350" height="35" fill="#161b22" stroke="#ffffff" stroke-width="1"/>
+      <text x="12" y="21" class="text-accent" font-size="10px">CRITICAL BUG: Thread crash on user.id resolution</text>
     </g>
 
     <!-- Multiplayer Lobby -->
     <g transform="translate(15, 260)" font-size="10px">
       <text x="0" y="12" class="text-accent">MULTIPLAYER DEBUG LOBBY</text>
-      <text x="0" y="28" class="text-muted">LOBBY: <tspan fill="#D06A1A">4/10 debuggers connected</tspan></text>
+      <text x="0" y="28" class="text-muted">LOBBY: 4/10 debuggers connected</text>
       <text x="210" y="28" class="text-muted">MODE: Collaborative Coop</text>
     </g>
   </g>
@@ -90,18 +90,18 @@
   <g transform="translate(420, 65)">
     <rect width="360" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ AI_MENTOR_EXPLANATION ]</text>
-    <line x1="15" y1="35" x2="345" y2="35" stroke="#EBDCB9" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="345" y2="35" stroke="#21262d" stroke-width="0.8"/>
 
     <!-- Dialog lines -->
     <g transform="translate(15, 55)">
-      <text x="0" y="12" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
+      <text x="0" y="12" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
       <text x="0" y="27" class="text-primary" font-size="12px">"Line 3 throws a raw Error when user.id is null."</text>
       
-      <text x="0" y="60" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
+      <text x="0" y="60" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
       <text x="0" y="75" class="text-primary" font-size="12px">"This crashes the stack. Recommended fix: Return"</text>
       <text x="0" y="90" class="text-primary" font-size="12px">"null or use an optional fallback payload object."</text>
 
-      <text x="0" y="125" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
+      <text x="0" y="125" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
       <text x="0" y="140" class="text-primary" font-size="12px">"Click here to learn *why* exceptions break"</text>
       <text x="0" y="155" class="text-primary" font-size="12px">"asynchronous execution contexts: [docs.txt]"</text>
     </g>

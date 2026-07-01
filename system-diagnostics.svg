@@ -3,25 +3,25 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@500;700&amp;display=swap');
       
-      .bg { fill: #FDF6EC; }
-      .grid-line { stroke: #FFEAD2; stroke-width: 0.5; opacity: 0.8; }
-      .border-panel { fill: none; stroke: #EBDCB9; stroke-width: 1.5; }
+      .bg { fill: #05070a; }
+      .grid-line { stroke: #161b22; stroke-width: 0.5; }
+      .border-panel { fill: none; stroke: #21262d; stroke-width: 1; }
       
-      .text-primary { fill: #4A2F13; font-family: 'Share Tech Mono', monospace; }
-      .text-accent { fill: #D06A1A; font-family: 'Share Tech Mono', monospace; font-weight: bold; }
-      .text-muted { fill: #8A6F53; font-family: 'Share Tech Mono', monospace; }
+      .text-primary { fill: #f0f6fc; font-family: 'Share Tech Mono', monospace; }
+      .text-accent { fill: #ffffff; font-family: 'Share Tech Mono', monospace; font-weight: bold; }
+      .text-muted { fill: #8b949e; font-family: 'Share Tech Mono', monospace; }
       
-      .col-header { font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 10.5px; fill: #D06A1A; letter-spacing: 1.5px; }
-      .label-text { fill: #8A6F53; font-weight: bold; }
-      .val-text { fill: #4A2F13; font-weight: bold; }
+      .col-header { font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 10.5px; fill: #ffffff; letter-spacing: 1.5px; }
+      .label-text { fill: #8b949e; font-weight: bold; }
+      .val-text { fill: #f0f6fc; font-weight: bold; }
       
-      .bar-bg { fill: #FFEAD2; stroke: #EBDCB9; stroke-width: 0.8; }
-      .bar-fill { fill: #D06A1A; }
+      .bar-bg { fill: #161b22; stroke: #21262d; stroke-width: 0.8; }
+      .bar-fill { fill: #ffffff; }
       
       .pulse-slow { animation: pulse 3s ease-in-out infinite; }
       @keyframes pulse {
         0%, 100% { opacity: 0.9; }
-        50% { opacity: 0.5; }
+        50% { opacity: 0.4; }
       }
     </style>
   </defs>
@@ -42,13 +42,13 @@
 
   <!-- Panel Borders -->
   <rect x="15" y="15" width="870" height="270" class="border-panel" rx="3"/>
-  <line x1="300" y1="15" x2="300" y2="285" stroke="#EBDCB9" stroke-width="1.5"/>
-  <line x1="600" y1="15" x2="600" y2="285" stroke="#EBDCB9" stroke-width="1.5"/>
+  <line x1="300" y1="15" x2="300" y2="285" stroke="#21262d" stroke-width="1"/>
+  <line x1="600" y1="15" x2="600" y2="285" stroke="#21262d" stroke-width="1"/>
 
   <!-- ═══ COLUMN 1: AGENT DATA ═══ -->
   <g transform="translate(35, 30)">
     <text x="0" y="15" class="col-header">// SYSTEM_IDENTITY</text>
-    <line x1="0" y1="23" x2="230" y2="23" stroke="#EBDCB9" stroke-width="1"/>
+    <line x1="0" y1="23" x2="230" y2="23" stroke="#21262d" stroke-width="1"/>
     
     <g transform="translate(0, 45)" font-family="Share Tech Mono, monospace" font-size="11.5px">
       <text x="0" y="15" class="label-text">AGENT    »</text>
@@ -67,18 +67,18 @@
       <text x="80" y="115" class="val-text">Saraswati College of Eng</text>
 
       <text x="0" y="140" class="label-text">STATUS   »</text>
-      <text x="80" y="140" fill="#D06A1A" font-weight="bold">● STEADY_GROWTH</text>
+      <text x="80" y="140" fill="#ffffff" font-weight="bold">● STEADY_GROWTH</text>
       
       <!-- Mini status signal -->
-      <rect x="0" y="175" width="80" height="16" fill="#FFEAD2" stroke="#EBDCB9" stroke-width="1" rx="2"/>
-      <text x="12" y="187" fill="#D06A1A" font-size="9px" font-weight="bold">// ONLINE</text>
+      <rect x="0" y="175" width="80" height="16" fill="none" stroke="#21262d" stroke-width="1" rx="2"/>
+      <text x="12" y="187" fill="#ffffff" font-size="9px" font-weight="bold">// ONLINE</text>
     </g>
   </g>
 
   <!-- ═══ COLUMN 2: CORE focus ═══ -->
   <g transform="translate(330, 30)">
     <text x="0" y="15" class="col-header">// SKILL_DIAGNOSTICS</text>
-    <line x1="0" y1="23" x2="230" y2="23" stroke="#EBDCB9" stroke-width="1"/>
+    <line x1="0" y1="23" x2="230" y2="23" stroke="#21262d" stroke-width="1"/>
     
     <g transform="translate(0, 45)" font-family="Share Tech Mono, monospace" font-size="11px">
       <!-- Item 1 -->
@@ -110,32 +110,32 @@
   <!-- ═══ COLUMN 3: ACTIVE PROCESSES ═══ -->
   <g transform="translate(630, 30)">
     <text x="0" y="15" class="col-header">// ACTIVE_PROCESSES</text>
-    <line x1="0" y1="23" x2="230" y2="23" stroke="#EBDCB9" stroke-width="1"/>
+    <line x1="0" y1="23" x2="230" y2="23" stroke="#21262d" stroke-width="1"/>
     
     <g transform="translate(0, 45)" font-family="Share Tech Mono, monospace" font-size="11px">
       <!-- Process 1 -->
       <text x="0" y="10" class="val-text">NagarSevak.sys</text>
       <text x="0" y="24" class="text-muted" font-size="9px">[ ACTIVE // CIVIC_PLATFORM ]</text>
-      <rect x="150" y="0" width="8" height="24" fill="#FFEAD2" stroke="#EBDCB9" stroke-width="0.8" rx="1"/>
+      <rect x="150" y="0" width="8" height="24" fill="#161b22" stroke="#21262d" stroke-width="0.8" rx="1"/>
       <rect x="150" y="0" width="8" height="24" class="bar-fill pulse-slow" rx="1"/>
 
       <!-- Process 2 -->
       <text x="0" y="55" class="val-text">Bupi_Companion.bin</text>
       <text x="0" y="69" class="text-muted" font-size="9px">[ CALIBRATING // ASSISTANT ]</text>
-      <rect x="150" y="45" width="8" height="24" fill="#FFEAD2" stroke="#EBDCB9" stroke-width="0.8" rx="1"/>
+      <rect x="150" y="45" width="8" height="24" fill="#161b22" stroke="#21262d" stroke-width="0.8" rx="1"/>
       <rect x="150" y="45" width="8" height="24" class="bar-fill" rx="1"/>
 
       <!-- Process 3 -->
       <text x="0" y="100" class="val-text">NHAIFaceID.apk</text>
       <text x="0" y="114" class="text-muted" font-size="9px">[ READY // OFFLINE_FACE ]</text>
-      <rect x="150" y="90" width="8" height="24" fill="#FFEAD2" stroke="#EBDCB9" stroke-width="0.8" rx="1"/>
+      <rect x="150" y="90" width="8" height="24" fill="#161b22" stroke="#21262d" stroke-width="0.8" rx="1"/>
       <rect x="150" y="90" width="8" height="24" class="bar-fill" rx="1"/>
     </g>
     
     <!-- Minimal Telemetry Graph at bottom-right of column 3 -->
     <g transform="translate(170, 160)">
-      <rect x="-10" y="-15" width="60" height="50" fill="none" stroke="#EBDCB9" stroke-width="1" rx="2"/>
-      <path d="M -5,25 L 5,10 L 15,30 L 25,5 L 35,20 L 45,0" fill="none" stroke="#D06A1A" stroke-width="1.5" class="pulse-slow"/>
+      <rect x="-10" y="-15" width="60" height="50" fill="none" stroke="#21262d" stroke-width="1" rx="2"/>
+      <path d="M -5,25 L 5,10 L 15,30 L 25,5 L 35,20 L 45,0" fill="none" stroke="#ffffff" stroke-width="1" class="pulse-slow"/>
       <text x="-10" y="45" class="text-muted" font-size="8px">DATA STREAM</text>
     </g>
   </g>
