@@ -1,37 +1,43 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:1a1a1a&height=200&section=header&text=Sachin%20Yadav&fontSize=60&fontColor=ffffff&fontAlignY=55&desc=Full-Stack%20%C2%B7%20AI%20Developer%20%C2%B7%20Civic%20Tech&descSize=16&descAlignY=75&descFontColor=888888&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD580,50:FFB366,100:FF8C00&height=200&section=header&text=Sachin%20Yadav&fontSize=60&fontColor=4A2F13&fontAlignY=55&desc=Full-Stack%20%C2%B7%20AI%20Developer%20%C2%B7%20Civic%20Tech&descSize=16&descAlignY=75&descFontColor=8A6F53&animation=fadeIn" width="100%"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=1000&color=FFFFFF&center=true&vCenter=true&width=680&lines=Building+AI+that+serves+real+people+%F0%9F%8F%99%EF%B8%8F;Co-author+%E2%80%94+145-Rule+AI+Priority+Framework+%5BResearch%5D;React+%C2%B7+Supabase+%C2%B7+Gemini+API+%C2%B7+Three.js;Always+learning+%E2%80%94+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=15&pause=1000&color=D06A1A&center=true&vCenter=true&width=680&lines=Building+AI+that+serves+real+people+🍊;Co-author+—+145-Rule+AI+Priority+Framework+[Research];React+·+Supabase+·+Gemini+API+·+Three.js;Always+learning+—+always+shipping+🚀" alt="Typing SVG" />
 
 <br/>
 
 <a href="mailto:Sachinyadav402107@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gmail-FFEAD2?style=for-the-badge&logo=gmail&logoColor=D06A1A"/>
 </a>
 <a href="https://github.com/bunnybot1121">
-  <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-FFEAD2?style=for-the-badge&logo=github&logoColor=D06A1A"/>
 </a>
 <a href="https://sachin-0.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Portfolio-FFEAD2?style=for-the-badge&logo=vercel&logoColor=D06A1A"/>
 </a>
 <a href="https://uivault1121.vercel.app">
-  <img src="https://img.shields.io/badge/UIVault-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/UIVault-FFEAD2?style=for-the-badge&logo=vercel&logoColor=D06A1A"/>
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=bunnybot1121&style=flat-square&color=ffffff&label=PROFILE+VIEWS&labelColor=000000" />
+<img src="https://komarev.com/ghpvc/?username=bunnybot1121&style=flat-square&color=FFCC99&label=PROFILE+VIEWS&labelColor=4A2F13" />
 &nbsp;
-<img src="https://img.shields.io/github/followers/bunnybot1121?style=flat-square&color=ffffff&logo=github&label=FOLLOWERS&labelColor=000000" />
+<img src="https://img.shields.io/github/followers/bunnybot1121?style=flat-square&color=FFCC99&logo=github&label=FOLLOWERS&labelColor=4A2F13" />
 
 </div>
 
 <br/>
 
+<p align="center">
+  <img src="./profile-dashboard-artwork.png" width="100%" alt="Chintu's Cozy Profile Dashboard" />
+</p>
+
+<br/>
+
 ---
 
-## `$ whoami`
+## 🍊 config.chintu
 
 <table>
 <tr>
@@ -41,7 +47,7 @@
 # sachin.config.yml
 
 identity:
-  name     : "Sachin Yadav"
+  name     : "Sachin Yadav (Chintu)"
   role     : "Full-Stack AI Developer"
   year     : "2nd Year — Computer Engineering"
   college  : "Saraswati College of Engineering"
@@ -56,7 +62,7 @@ focus:
 currently_building:
   - NagarSevak   # AI municipal platform
   - Bupi         # Desktop AI companion
-  - NHAIFaceID   # Offline facial attendance
+  - UIVault      # Bold Neo-brutalist UI
 
 research:
   - "145-Rule Safety-Weighted AI Priority
@@ -66,7 +72,10 @@ research:
 </td>
 <td width="48%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=000408&title_color=00ffff&text_color=00bfff&icon_color=00ffff&border_color=003355&hide_border=false" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=FDF6EC&title_color=D06A1A&text_color=4a2f13&icon_color=D06A1A&border_color=EBDCB9&hide_border=false" width="100%" />
+
+<br/>
+<img src="./umaru-cheering.jpg" width="60%" style="border-radius: 8px;" alt="Umaru Cheering" />
 
 </td>
 </tr>
@@ -74,7 +83,7 @@ research:
 
 ---
 
-## `$ cat research.txt`
+## 📄 Research Diary
 
 <p align="center">
   <img src="./research-paper.svg" width="100%" alt="Co-Authored Research Paper" />
@@ -82,7 +91,7 @@ research:
 
 ---
 
-## `$ ls ./projects`
+## 🚀 My Creations
 
 #### 🏙️ &nbsp;[NagarSevak](https://citizenz.vercel.app)
 AI-powered municipal complaint and scheduling platform designed for NMMC/Kharghar.
@@ -136,44 +145,62 @@ Interactive AI coding mentor that explains the mechanics of bugs alongside multi
 
 ---
 
-## `$ cat stack.sh`
+## 🛠️ My Toolbox
 
-```bash
-#!/bin/bash
-
-# Frontend Stack
-frontend=("HTML5" "CSS3" "JavaScript" "React" "React Native" "Vite" "Three.js")
-
-# Backend & Database
-backend_db=("Node.js" "Express" "Python" "Supabase" "PostgreSQL")
-
-# AI & Embedded
-ai_embedded=("Gemini API" "TensorFlow Lite" "PyQt6" "ESP32" "MQTT")
-
-# Tools & DevOps
-tools_devops=("Git" "GitHub Actions" "Vercel" "VS Code" "Figma")
-```
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Frontend-HTML5_·_CSS3_·_JS_·_React_·_Vite_·_Three.js-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/Backend-Node_·_Express_·_Python_·_Supabase_·_Postgres-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI_&_IoT-Gemini_·_TFLite_·_PyQt6_·_ESP32_·_MQTT-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/Tools-Git_·_Actions_·_Vercel_·_VS_Code_·_Figma-000000?style=flat-square" />
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>💻 Frontend</strong><br/><br/>
+      <img src="https://img.shields.io/badge/HTML5-FFEAD2?style=flat-square&logo=html5&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/CSS3-FFEAD2?style=flat-square&logo=css3&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/JavaScript-FFEAD2?style=flat-square&logo=javascript&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/React-FFEAD2?style=flat-square&logo=react&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/React_Native-FFEAD2?style=flat-square&logo=react&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/Vite-FFEAD2?style=flat-square&logo=vite&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/Three.js-FFEAD2?style=flat-square&logo=threedotjs&logoColor=D06A1A" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>⚡ Backend &amp; Database</strong><br/><br/>
+      <img src="https://img.shields.io/badge/Node.js-FFEAD2?style=flat-square&logo=nodedotjs&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/Express-FFEAD2?style=flat-square&logo=express&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/Python-FFEAD2?style=flat-square&logo=python&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/Supabase-FFEAD2?style=flat-square&logo=supabase&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/PostgreSQL-FFEAD2?style=flat-square&logo=postgresql&logoColor=D06A1A" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🧠 AI &amp; Embedded</strong><br/><br/>
+      <img src="https://img.shields.io/badge/Gemini_API-FFEAD2?style=flat-square&logo=google&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/TFLite-FFEAD2?style=flat-square&logo=tensorflow&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/PyQt6-FFEAD2?style=flat-square&logo=qt&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/ESP32-FFEAD2?style=flat-square&logo=espressif&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/MQTT-FFEAD2?style=flat-square&logo=eclipse-mosquitto&logoColor=D06A1A" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>🛠️ Tools &amp; DevOps</strong><br/><br/>
+      <img src="https://img.shields.io/badge/Git-FFEAD2?style=flat-square&logo=git&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-FFEAD2?style=flat-square&logo=githubactions&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/Vercel-FFEAD2?style=flat-square&logo=vercel&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/VS_Code-FFEAD2?style=flat-square&logo=visualstudiocode&logoColor=D06A1A" />
+      <img src="https://img.shields.io/badge/Figma-FFEAD2?style=flat-square&logo=figma&logoColor=D06A1A" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## `$ git log --stat`
+## 📈 Activity Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=000408&title_color=00ffff&text_color=00bfff&icon_color=00ffff&border_color=003355&hide_border=false" height="175" />
+<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=FDF6EC&title_color=D06A1A&text_color=4a2f13&icon_color=D06A1A&border_color=EBDCB9&hide_border=false" height="175" />
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=000408&border=003355&stroke=00bfff&ring=00ffff&fire=ff4500&currStreakNum=ffffff&sideNums=00bfff&currStreakLabel=005577&sideLabels=005577&dates=005577&hide_border=false" height="175" />
+<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=FDF6EC&border=EBDCB9&stroke=D06A1A&ring=FF9933&fire=FF9933&currStreakNum=4a2f13&sideNums=4a2f13&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&hide_border=false" height="175" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=000408&color=00ffff&line=003355&point=00ffff&area=true&area_color=001122&hide_border=false&border_color=003355&title_color=00ffff&custom_title=Contribution+Activity" width="97%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=FDF6EC&color=D06A1A&line=D06A1A&point=FF9933&area=true&area_color=FFEAD2&hide_border=false&border_color=EBDCB9&title_color=D06A1A&custom_title=Contribution+Activity" width="97%" />
 
 <br/>
 
@@ -187,7 +214,7 @@ tools_devops=("Git" "GitHub Actions" "Vercel" "VS Code" "Figma")
 
 ---
 
-## `$ tail -f activity.log`
+## 📜 Activity Log
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#7](https://github.com/piyushyenorkar/NHAIFaceID/pull/7) in [piyushyenorkar/NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
@@ -200,6 +227,8 @@ tools_devops=("Git" "GitHub Actions" "Vercel" "VS Code" "Figma")
 
 <div align="center">
   <sub>Built with obsession · Shipped with purpose · Powered by chai ☕</sub>
+  <br/><br/>
+  <img src="./umaru-sleeping.jpg" width="40%" style="border-radius: 8px;" alt="Umaru Sleeping" />
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:111111,100:000000&height=130&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFBB66,50:FFCC99,100:FFEAD2&height=130&section=footer" width="100%"/>

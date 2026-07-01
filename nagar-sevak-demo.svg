@@ -2,26 +2,26 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
-      .bg { fill: #000408; }
-      .border { fill: none; stroke: #003355; stroke-width: 1.5; }
-      .grid { stroke: #001830; stroke-width: 0.5; opacity: 0.6; }
-      .panel-border { fill: none; stroke: #003355; stroke-width: 1; }
-      .text-primary { fill: #00BFFF; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
-      .text-muted { fill: #005577; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
-      .text-accent { fill: #00FFFF; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
-      .status-dot { fill: #00FF41; filter: drop-shadow(0 0 3px #00FF41); }
-      .pothole-box { fill: none; stroke: #FF4500; stroke-width: 1.5; stroke-dasharray: 4 2; filter: drop-shadow(0 0 3px #FF4500); }
-      .progress-bg { fill: #000d1a; stroke: #002244; stroke-width: 1; }
-      .progress-bar { fill: #00FFFF; filter: drop-shadow(0 0 4px #00FFFF); }
-      .critical-tag { fill: none; stroke: #FF4500; stroke-width: 1; }
-      .critical-text { fill: #FF4500; font-family: 'Share Tech Mono', monospace; font-size: 9px; font-weight: bold; }
+      .bg { fill: #FDF6EC; }
+      .border { fill: none; stroke: #EBDCB9; stroke-width: 1.5; }
+      .grid { stroke: #FFEAD2; stroke-width: 0.5; opacity: 0.8; }
+      .panel-border { fill: none; stroke: #EBDCB9; stroke-width: 1; }
+      .text-primary { fill: #4A2F13; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
+      .text-muted { fill: #8A6F53; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
+      .text-accent { fill: #D06A1A; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
+      .status-dot { fill: #D06A1A; }
+      .pothole-box { fill: none; stroke: #D06A1A; stroke-width: 1.5; stroke-dasharray: 4 2; }
+      .progress-bg { fill: #FFEAD2; stroke: #EBDCB9; stroke-width: 1; }
+      .progress-bar { fill: #D06A1A; }
+      .critical-tag { fill: none; stroke: #D06A1A; stroke-width: 1; }
+      .critical-text { fill: #D06A1A; font-family: 'Share Tech Mono', monospace; font-size: 9px; font-weight: bold; }
     </style>
   </defs>
 
   <!-- Background -->
   <rect width="800" height="400" class="bg"/>
 
-  <!-- Grid lines for HUD effect -->
+  <!-- Grid lines -->
   <g>
     <line x1="0" y1="50" x2="800" y2="50" class="grid"/>
     <line x1="0" y1="100" x2="800" y2="100" class="grid"/>
@@ -47,20 +47,20 @@
     <text x="0" y="0" class="text-accent" font-size="14">// SYSTEM: NAGARSEVAK // CIVIC_DASHBOARD_v1.0</text>
     <text x="540" y="0" class="text-muted">HOST: citizenz.vercel.app</text>
     <circle cx="710" cy="-4" r="5" class="status-dot"/>
-    <text x="720" y="0" fill="#00FF41" font-family="'Share Tech Mono', monospace" font-size="11px">JARVIS_ONLINE</text>
-    <line x1="0" y1="12" x2="760" y2="12" stroke="#003355" stroke-width="1"/>
+    <text x="720" y="0" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="11px">CORE_ONLINE</text>
+    <line x1="0" y1="12" x2="760" y2="12" stroke="#EBDCB9" stroke-width="1.5"/>
   </g>
 
   <!-- Left Panel: Incident Log -->
   <g transform="translate(20, 65)">
     <rect width="360" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ INCIDENT_TICKET_LOG ]</text>
-    <line x1="15" y1="35" x2="345" y2="35" stroke="#003355" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="345" y2="35" stroke="#EBDCB9" stroke-width="0.8"/>
 
     <!-- Incident 1 -->
     <g transform="translate(15, 55)">
       <text x="0" y="12" class="text-primary">TICKET #NMC-802: ROAD_POTHOLE</text>
-      <text x="0" y="27" class="text-muted">LOC: Sector 12, Kharghar | status: <tspan fill="#FF4500">DISPATCHED</tspan></text>
+      <text x="0" y="27" class="text-muted">LOC: Sector 12, Kharghar | status: <tspan fill="#D06A1A">DISPATCHED</tspan></text>
       <rect x="290" y="2" width="50" height="15" class="critical-tag"/>
       <text x="295" y="13" class="critical-text">CRITICAL</text>
     </g>
@@ -68,24 +68,24 @@
     <!-- Incident 2 -->
     <g transform="translate(15, 115)">
       <text x="0" y="12" class="text-primary">TICKET #NMC-801: STREETLIGHT_FAIL</text>
-      <text x="0" y="27" class="text-muted">LOC: Sector 20, Kharghar | status: <tspan fill="#00FF41">SOLVED</tspan></text>
-      <rect x="290" y="2" width="50" height="15" fill="none" stroke="#005577" stroke-width="0.8"/>
+      <text x="0" y="27" class="text-muted">LOC: Sector 20, Kharghar | status: <tspan fill="#8A6F53">SOLVED</tspan></text>
+      <rect x="290" y="2" width="50" height="15" fill="none" stroke="#EBDCB9" stroke-width="0.8"/>
       <text x="298" y="13" class="text-muted" font-size="9px">NORMAL</text>
     </g>
 
     <!-- Incident 3 -->
     <g transform="translate(15, 175)">
       <text x="0" y="12" class="text-primary">TICKET #NMC-799: SEWAGE_OVERFLOW</text>
-      <text x="0" y="27" class="text-muted">LOC: Sector 4, Kharghar  | status: <tspan fill="#00BFFF">IN_QUEUE</tspan></text>
-      <rect x="290" y="2" width="50" height="15" fill="none" stroke="#00BFFF" stroke-width="0.8"/>
-      <text x="303" y="13" fill="#00BFFF" font-family="'Share Tech Mono', monospace" font-size="9px">HIGH</text>
+      <text x="0" y="27" class="text-muted">LOC: Sector 4, Kharghar  | status: <tspan fill="#D06A1A">IN_QUEUE</tspan></text>
+      <rect x="290" y="2" width="50" height="15" fill="none" stroke="#D06A1A" stroke-width="0.8"/>
+      <text x="303" y="13" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="9px">HIGH</text>
     </g>
 
     <!-- Incident 4 -->
     <g transform="translate(15, 235)">
       <text x="0" y="12" class="text-primary">TICKET #NMC-798: WATER_LEAKAGE</text>
-      <text x="0" y="27" class="text-muted">LOC: Sector 15, Kharghar | status: <tspan fill="#00BFFF">INVESTIGATING</tspan></text>
-      <rect x="290" y="2" width="50" height="15" fill="none" stroke="#005577" stroke-width="0.8"/>
+      <text x="0" y="27" class="text-muted">LOC: Sector 15, Kharghar | status: <tspan fill="#8A6F53">INVESTIGATING</tspan></text>
+      <rect x="290" y="2" width="50" height="15" fill="none" stroke="#EBDCB9" stroke-width="0.8"/>
       <text x="298" y="13" class="text-muted" font-size="9px">MEDIUM</text>
     </g>
   </g>
@@ -94,27 +94,27 @@
   <g transform="translate(400, 65)">
     <rect width="380" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ AI_VISION_DAMAGE_DIAGNOSTIC ]</text>
-    <line x1="15" y1="35" x2="365" y2="35" stroke="#003355" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="365" y2="35" stroke="#EBDCB9" stroke-width="0.8"/>
 
     <!-- Pothole Image wireframe -->
     <g transform="translate(15, 55)">
-      <rect width="180" height="160" fill="#000810" stroke="#003355" stroke-width="1"/>
-      <path d="M 10,80 Q 50,20 90,80 T 170,80" fill="none" stroke="#005577" stroke-width="1.5" stroke-dasharray="2 2"/>
+      <rect width="180" height="160" fill="#FFEAD2" stroke="#EBDCB9" stroke-width="1"/>
+      <path d="M 10,80 Q 50,20 90,80 T 170,80" fill="none" stroke="#EBDCB9" stroke-width="1.5" stroke-dasharray="2 2"/>
       <ellipse cx="90" cy="90" rx="35" ry="15" class="pothole-box"/>
-      <text x="50" y="65" fill="#FF4500" font-family="'Share Tech Mono', monospace" font-size="10px" font-weight="bold" filter="drop-shadow(0 0 2px #FF4500)">POTHOLE DETECTED</text>
+      <text x="50" y="65" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="10px" font-weight="bold">POTHOLE DETECTED</text>
       <text x="10" y="150" class="text-muted" font-size="9px">INPUT_IMG_NMC_802.jpg</text>
     </g>
 
     <!-- Stats details -->
     <g transform="translate(210, 55)">
       <text x="0" y="15" class="text-muted">OBJECT CLASSIFICATION</text>
-      <text x="0" y="30" fill="#ffffff" font-family="'Share Tech Mono', monospace" font-size="12px" font-weight="bold">ROAD_STRUCTURAL_DEFECT</text>
+      <text x="0" y="30" fill="#4A2F13" font-family="'Share Tech Mono', monospace" font-size="12px" font-weight="bold">ROAD_STRUCTURAL_DEFECT</text>
 
       <text x="0" y="60" class="text-muted">ANALYSIS CONFIDENCE</text>
-      <text x="0" y="75" fill="#00FF41" font-family="'Share Tech Mono', monospace" font-size="13px" font-weight="bold">98.4% [VERIFIED]</text>
+      <text x="0" y="75" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="13px" font-weight="bold">98.4% [VERIFIED]</text>
 
       <text x="0" y="105" class="text-muted">145-RULE PRIORITY</text>
-      <text x="0" y="120" fill="#FF4500" font-family="'Share Tech Mono', monospace" font-size="12px" font-weight="bold">CRITICAL_SAFETY_THREAT</text>
+      <text x="0" y="120" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="12px" font-weight="bold">CRITICAL_SAFETY_THREAT</text>
 
       <text x="0" y="150" class="text-muted">DISPATCH TARGET</text>
       <text x="0" y="165" class="text-primary">ROAD_MAINTENANCE_DIV_C</text>

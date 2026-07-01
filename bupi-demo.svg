@@ -2,18 +2,18 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
-      .bg { fill: #000408; }
-      .border { fill: none; stroke: #003355; stroke-width: 1.5; }
-      .grid { stroke: #001830; stroke-width: 0.5; opacity: 0.6; }
-      .panel-border { fill: none; stroke: #003355; stroke-width: 1; }
-      .text-primary { fill: #00BFFF; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
-      .text-muted { fill: #005577; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
-      .text-accent { fill: #00FFFF; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
-      .status-yellow { fill: #FF8C00; filter: drop-shadow(0 0 3px #FF8C00); }
-      .waveform-line { stroke: #00FFFF; stroke-width: 1.5; fill: none; filter: drop-shadow(0 0 2px #00FFFF); }
-      .device-on { fill: #00FF41; filter: drop-shadow(0 0 3px #00FF41); }
-      .device-val { fill: #00BFFF; filter: drop-shadow(0 0 2px #00BFFF); }
-      .device-off { fill: #001525; stroke: #003355; stroke-width: 1; }
+      .bg { fill: #FDF6EC; }
+      .border { fill: none; stroke: #EBDCB9; stroke-width: 1.5; }
+      .grid { stroke: #FFEAD2; stroke-width: 0.5; opacity: 0.8; }
+      .panel-border { fill: none; stroke: #EBDCB9; stroke-width: 1; }
+      .text-primary { fill: #4A2F13; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
+      .text-muted { fill: #8A6F53; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
+      .text-accent { fill: #D06A1A; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
+      .status-yellow { fill: #D06A1A; }
+      .waveform-line { stroke: #D06A1A; stroke-width: 1.5; fill: none; }
+      .device-on { fill: #D06A1A; }
+      .device-val { fill: #4A2F13; }
+      .device-off { fill: #FFEAD2; stroke: #EBDCB9; stroke-width: 1; }
     </style>
   </defs>
 
@@ -46,32 +46,32 @@
     <text x="0" y="0" class="text-accent" font-size="14">// SYSTEM: BUPI // AI_DESKTOP_ORCHESTRATOR</text>
     <text x="540" y="0" class="text-muted">PROC: bupi_companion.bin</text>
     <circle cx="710" cy="-4" r="5" class="status-yellow"/>
-    <text x="720" y="0" fill="#FF8C00" font-family="'Share Tech Mono', monospace" font-size="11px">CALIBRATING_CORE</text>
-    <line x1="0" y1="12" x2="760" y2="12" stroke="#003355" stroke-width="1"/>
+    <text x="720" y="0" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="11px">CALIBRATING_CORE</text>
+    <line x1="0" y1="12" x2="760" y2="12" stroke="#EBDCB9" stroke-width="1.5"/>
   </g>
 
   <!-- Left Panel: Cognitive Dialog Log -->
   <g transform="translate(20, 65)">
     <rect width="380" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ COGNITIVE_AI_STREAM ]</text>
-    <line x1="15" y1="35" x2="365" y2="35" stroke="#003355" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="365" y2="35" stroke="#EBDCB9" stroke-width="0.8"/>
 
     <!-- Dialog 1 -->
     <g transform="translate(15, 55)">
-      <text x="0" y="12" fill="#0099FF" font-family="'Share Tech Mono', monospace" font-size="10px">USER_INPUT_VOICE &gt;&gt;</text>
+      <text x="0" y="12" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="10px">USER_INPUT_VOICE &gt;&gt;</text>
       <text x="0" y="27" class="text-primary">"Bupi, scan the room lights and activate MQTT server."</text>
     </g>
 
     <!-- Dialog 2 -->
     <g transform="translate(15, 115)">
-      <text x="0" y="12" fill="#0099FF" font-family="'Share Tech Mono', monospace" font-size="10px">BUPI_RESPONSE_VOICE &gt;&gt;</text>
+      <text x="0" y="12" fill="#D06A1A" font-family="'Share Tech Mono', monospace" font-size="10px">BUPI_RESPONSE_VOICE &gt;&gt;</text>
       <text x="0" y="27" class="text-accent">"Scanning local network... 3 ESP32 nodes found. MQTT broker active."</text>
     </g>
 
     <!-- Dialog 3 -->
     <g transform="translate(15, 175)">
-      <text x="0" y="12" fill="#00FF41" font-family="'Share Tech Mono', monospace" font-size="10px">BUPI_ACTION_LOGGER &gt;&gt;</text>
-      <text x="0" y="27" fill="#00FF41" font-family="'Share Tech Mono', monospace" font-size="12px">● Published payload '{"state":"ON"}' to topic '/desk/light'</text>
+      <text x="0" y="12" fill="#8A6F53" font-family="'Share Tech Mono', monospace" font-size="10px">BUPI_ACTION_LOGGER &gt;&gt;</text>
+      <text x="0" y="27" fill="#4A2F13" font-family="'Share Tech Mono', monospace" font-size="12px">● Published payload '{"state":"ON"}' to topic '/desk/light'</text>
     </g>
 
     <!-- Neural Info -->
@@ -89,33 +89,33 @@
   <g transform="translate(420, 65)">
     <rect width="360" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ IOT_MQTT_GATEWAY_TELEMETRY ]</text>
-    <line x1="15" y1="35" x2="345" y2="35" stroke="#003355" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="345" y2="35" stroke="#EBDCB9" stroke-width="0.8"/>
 
     <!-- Device 1 -->
     <g transform="translate(15, 55)">
       <text x="0" y="12" class="text-primary">NODE_01: ESP32_DeskLight</text>
-      <text x="0" y="27" class="text-muted">TOPIC: /desk/light | STATUS: <tspan fill="#00FF41">ON</tspan></text>
+      <text x="0" y="27" class="text-muted">TOPIC: /desk/light | STATUS: <tspan fill="#D06A1A">ON</tspan></text>
       <circle cx="320" cy="18" r="6" class="device-on"/>
     </g>
 
     <!-- Device 2 -->
     <g transform="translate(15, 115)">
       <text x="0" y="12" class="text-primary">NODE_02: ESP32_RoomSensor</text>
-      <text x="0" y="27" class="text-muted">TOPIC: /room/temp  | VALUE: <tspan fill="#00BFFF">24.5°C</tspan></text>
+      <text x="0" y="27" class="text-muted">TOPIC: /room/temp  | VALUE: <tspan fill="#4A2F13">24.5°C</tspan></text>
       <circle cx="320" cy="18" r="6" class="device-val"/>
     </g>
 
     <!-- Device 3 -->
     <g transform="translate(15, 175)">
       <text x="0" y="12" class="text-primary">NODE_03: ESP32_FanRelay</text>
-      <text x="0" y="27" class="text-muted">TOPIC: /fan/speed  | STATUS: <tspan fill="#005577">OFF</tspan></text>
+      <text x="0" y="27" class="text-muted">TOPIC: /fan/speed  | STATUS: <tspan fill="#8A6F53">OFF</tspan></text>
       <circle cx="320" cy="18" r="6" class="device-off"/>
     </g>
 
     <!-- Voice signal preview (waveform) -->
     <g transform="translate(15, 240)">
       <text x="0" y="12" class="text-accent">VOICE_SIGNAL_TELEMETRY</text>
-      <rect x="0" y="20" width="330" height="40" fill="#000810" stroke="#003355" stroke-width="1"/>
+      <rect x="0" y="20" width="330" height="40" fill="#FFEAD2" stroke="#EBDCB9" stroke-width="1"/>
       <path d="M 5,260 L 30,260 L 45,245 L 60,275 L 75,250 L 90,270 L 105,240 L 120,280 L 135,245 L 150,275 L 165,260 L 325,260" class="waveform-line" transform="translate(0, -220)"/>
       <text x="5" y="52" class="text-muted" font-size="8px">INPUT STREAM: active</text>
       <text x="235" y="52" class="text-muted" font-size="8px">FREQ: 16.0 kHz</text>
