@@ -66,7 +66,7 @@ research:
 </td>
 <td width="48%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&border_color=333333&hide_border=false" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=21262d&hide_border=false" width="100%" />
 
 </td>
 </tr>
@@ -100,142 +100,84 @@ research:
 
 ## `$ ls ./projects`
 
-<table width="100%">
-  <tr>
-    <td valign="top" width="50%">
+#### 🏙️ &nbsp;[NagarSevak](https://citizenz.vercel.app)
+AI-powered municipal complaint and scheduling platform designed for NMMC/Kharghar.
+*   **Key Features:** 145-rule safety-weighted priority scheduler · Automated Gemini Vision damage classification.
+*   **Architecture:** Three role-separated portals for citizens, field workers, and municipal admins.
+*   **Stack:** `React` · `Supabase` · `Gemini API` · `Vercel`
+*   **Portals:** [Citizen Portal](https://citizenz.vercel.app) &nbsp;·&nbsp; [Admin Portal](https://rnmunicipal.vercel.app) &nbsp;·&nbsp; [Worker Portal](https://fieldstaff.vercel.app)
 
-### 🏙️ &nbsp;NagarSevak
-<sub>AI-powered municipal complaint &amp; scheduling platform for NMMC/Kharghar</sub>
+<br/>
 
-```yaml
-priority : "145-rule safety-weighted scheduler"
-vision   : "Gemini Vision API damage classification"
-stack    : "React · Supabase · Gemini API · Vercel"
-```
-[Citizen Portal](https://citizenz.vercel.app) &nbsp;·&nbsp; [Admin Portal](https://rnmunicipal.vercel.app) &nbsp;·&nbsp; [Worker Portal](https://fieldstaff.vercel.app)
+#### 🤖 &nbsp;[Bupi — AI Companion](https://github.com/bunnybot1121)
+Dual-mode system serving as a desktop AI companion and an IoT/robotics device orchestrator.
+*   **Key Features:** `faster-whisper` STT · `pyttsx3` TTS · Gemini 1.5 Flash assistant model.
+*   **IoT System:** EventBus asynchronous event routing with ESP32 device control over MQTT.
+*   **Stack:** `Python` · `PyQt6` · `MQTT` · `ESP32`
+*   **Repository:** [View Codebase](https://github.com/bunnybot1121)
 
-    </td>
-    <td valign="top" width="50%">
+<br/>
 
-### 🤖 &nbsp;Bupi — AI Companion
-<sub>Dual-mode desktop companion + IoT robotics orchestrator</sub>
+#### 🎨 &nbsp;[UIVault](https://uivault1121.vercel.app)
+A bold, expressive, and production-ready neo-brutalist UI component library.
+*   **Key Features:** 41+ unique components designed to escape boring/generic web layouts.
+*   **Design:** High-performance, dependency-free vanilla implementations.
+*   **Stack:** `HTML5` · `CSS3` · `Vanilla JavaScript`
+*   **Links:** [Live Library](https://uivault1121.vercel.app) &nbsp;·&nbsp; [View Codebase](https://github.com/bunnybot1121)
 
-```yaml
-voice_ai : "faster-whisper (STT) + pyttsx3 (TTS)"
-model    : "Gemini 1.5 Flash via EventBus logic"
-iot_mqtt : "ESP32 device orchestration via MQTT"
-stack    : "Python · PyQt6 · MQTT · ESP32"
-```
-[View Repository](https://github.com/bunnybot1121)
+<br/>
 
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
+#### 🐛 &nbsp;[BugHunt](https://github.com/bunnybot1121)
+Interactive AI coding mentor that explains the mechanics of bugs alongside multiplayer debugging.
+*   **Key Features:** "Among Us"-style collaborative debugging lobby · Automated tutor explains *why* code failed.
+*   **AI Engine:** Groq API using Qwen 2.5/72B for high-speed, accurate code inference.
+*   **Stack:** `React` · `Node.js` · `Express` · `Groq`
+*   **Repository:** [View Codebase](https://github.com/bunnybot1121)
 
-### 🎨 &nbsp;UIVault
-<sub>Neo-brutalist UI component library with bold, expressive styles</sub>
+<br/>
 
-```yaml
-library  : "41+ distinct production-ready styles"
-design   : "Neo-brutalist custom layouts"
-concept  : "Lightweight, dependency-free vanilla"
-stack    : "HTML5 · CSS3 · Vanilla JavaScript"
-```
-[Live Site](https://uivault1121.vercel.app) &nbsp;·&nbsp; [View Repository](https://github.com/bunnybot1121)
+#### 📡 &nbsp;[NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
+Offline React Native facial recognition attendance tracker optimized for field staff.
+*   **Key Features:** AdaFace IR-18 embedding + BlazeFace tracker · Passive optical flow-based liveness detection.
+*   **Metrics:** Sub-second verification latency, total offline bundle footprint under 18MB.
+*   **Stack:** `React Native` · `TensorFlow Lite`
+*   **Repository:** [View Codebase](https://github.com/piyushyenorkar/NHAIFaceID)
 
-    </td>
-    <td valign="top" width="50%">
+<br/>
 
-### 🐛 &nbsp;BugHunt
-<sub>AI coding mentor and collaborative multiplayer debugging platform</sub>
-
-```yaml
-mentoring: "AI tutor explaining bug mechanics"
-social   : "Among Us-style coop debug lobby"
-ai_core  : "Groq API + Qwen 2.5/72B inference"
-stack    : "React · Node.js · Express · Groq"
-```
-[View Repository](https://github.com/bunnybot1121)
-
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-
-### 📡 &nbsp;NHAIFaceID
-<sub>Offline React Native facial recognition attendance system for field staff</sub>
-
-```yaml
-tracking : "AdaFace IR-18 + BlazeFace models"
-liveness : "Passive optical flow verification"
-metrics  : "Sub-1s latency, bundle under 18MB"
-stack    : "React Native · TensorFlow Lite"
-```
-[View Repository](https://github.com/piyushyenorkar/NHAIFaceID)
-
-    </td>
-    <td valign="top" width="50%">
-
-### 🌍 &nbsp;DisasterMap
-<sub>Real-time crisis detection, threat mapping, and routing platform</sub>
-
-```yaml
-telemetry: "Aggregates live incident reports"
-mapping  : "Interactive dynamic threat grids"
-event    : "Build for Chaos Hackathon entry"
-stack    : "React · Supabase · Mapbox API"
-```
-[View Repository](https://github.com/bunnybot1121)
-
-    </td>
-  </tr>
-</table>
+#### 🌍 &nbsp;[DisasterMap](https://github.com/bunnybot1121)
+Real-time crisis detection, threat mapping, and rescue routing platform.
+*   **Key Features:** Aggregates live incident telemetry onto dynamic threat grid visualizations.
+*   **Hackathon:** Developed for the Build for Chaos Hackathon.
+*   **Stack:** `React` · `Supabase` · `Mapbox API`
+*   **Repository:** [View Codebase](https://github.com/bunnybot1121)
 
 ---
 
 ## `$ cat stack.sh`
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <strong>💻 Frontend</strong><br/><br/>
-      <img src="https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-000000?style=flat-square&logo=css3&logoColor=white" />
-      <img src="https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/React_Native-000000?style=flat-square&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=white" />
-      <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <strong>⚡ Backend &amp; Database</strong><br/><br/>
-      <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-      <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Supabase-000000?style=flat-square&logo=supabase&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>🧠 AI &amp; Embedded</strong><br/><br/>
-      <img src="https://img.shields.io/badge/Gemini_API-000000?style=flat-square&logo=google&logoColor=white" />
-      <img src="https://img.shields.io/badge/TFLite-000000?style=flat-square&logo=tensorflow&logoColor=white" />
-      <img src="https://img.shields.io/badge/PyQt6-000000?style=flat-square&logo=qt&logoColor=white" />
-      <img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" />
-      <img src="https://img.shields.io/badge/MQTT-000000?style=flat-square&logo=eclipse-mosquitto&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <strong>🛠️ Tools &amp; Devops</strong><br/><br/>
-      <img src="https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=flat-square&logo=githubactions&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-      <img src="https://img.shields.io/badge/VS_Code-000000?style=flat-square&logo=visualstudiocode&logoColor=white" />
-      <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=white" />
-    </td>
-  </tr>
-</table>
+```bash
+#!/bin/bash
+
+# Frontend Stack
+frontend=("HTML5" "CSS3" "JavaScript" "React" "React Native" "Vite" "Three.js")
+
+# Backend & Database
+backend_db=("Node.js" "Express" "Python" "Supabase" "PostgreSQL")
+
+# AI & Embedded
+ai_embedded=("Gemini API" "TensorFlow Lite" "PyQt6" "ESP32" "MQTT")
+
+# Tools & DevOps
+tools_devops=("Git" "GitHub Actions" "Vercel" "VS Code" "Figma")
+```
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Frontend-HTML5_·_CSS3_·_JS_·_React_·_Vite_·_Three.js-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Backend-Node_·_Express_·_Python_·_Supabase_·_Postgres-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/AI_&_IoT-Gemini_·_TFLite_·_PyQt6_·_ESP32_·_MQTT-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Tools-Git_·_Actions_·_Vercel_·_VS_Code_·_Figma-000000?style=flat-square" />
+</div>
 
 ---
 
@@ -243,13 +185,13 @@ stack    : "React · Supabase · Mapbox API"
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&border_color=333333&hide_border=false" height="175" />
+<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=21262d&hide_border=false" height="175" />
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=000000&border=333333&stroke=333333&ring=ffffff&fire=cccccc&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=aaaaaa&sideLabels=aaaaaa&dates=666666&hide_border=false" height="175" />
+<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=0d1117&border=21262d&stroke=30363d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&hide_border=false" height="175" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=000000&color=ffffff&line=444444&point=ffffff&area=true&area_color=1a1a1a&hide_border=false&border_color=333333&title_color=ffffff&custom_title=Contribution+Activity" width="97%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=0d1117&color=ffffff&line=30363d&point=ffffff&area=true&area_color=161b22&hide_border=false&border_color=21262d&title_color=ffffff&custom_title=Contribution+Activity" width="97%" />
 
 <br/>
 
