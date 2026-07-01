@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .bg { fill: #05070a; }
+      .border { fill: none; stroke: #21262d; stroke-width: 1.5; }
+      .grid { stroke: #161b22; stroke-width: 0.5; }
+      .panel-border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .text-primary { fill: #f0f6fc; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
+      .text-muted { fill: #8b949e; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
+      .text-accent { fill: #ffffff; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
+      .status-dot { fill: #2ea043; }
+      .bug-highlight { fill: none; stroke: #ffffff; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" class="bg"/>
+
+  <!-- Grid lines -->
+  <g opacity="0.8">
+    <line x1="0" y1="50" x2="800" y2="50" class="grid"/>
+    <line x1="0" y1="100" x2="800" y2="100" class="grid"/>
+    <line x1="0" y1="150" x2="800" y2="150" class="grid"/>
+    <line x1="0" y1="200" x2="800" y2="200" class="grid"/>
+    <line x1="0" y1="250" x2="800" y2="250" class="grid"/>
+    <line x1="0" y1="300" x2="800" y2="300" class="grid"/>
+    <line x1="0" y1="350" x2="800" y2="350" class="grid"/>
+    <line x1="100" y1="0" x2="100" y2="400" class="grid"/>
+    <line x1="200" y1="0" x2="200" y2="400" class="grid"/>
+    <line x1="300" y1="0" x2="300" y2="400" class="grid"/>
+    <line x1="400" y1="0" x2="400" y2="400" class="grid"/>
+    <line x1="500" y1="0" x2="500" y2="400" class="grid"/>
+    <line x1="600" y1="0" x2="600" y2="400" class="grid"/>
+    <line x1="700" y1="0" x2="700" y2="400" class="grid"/>
+  </g>
+
+  <!-- Outer Border -->
+  <rect width="800" height="400" class="border"/>
+
+  <!-- Header -->
+  <g transform="translate(20, 30)">
+    <text x="0" y="0" class="text-accent" font-size="14">// SYSTEM: BUGHUNT // AI_DEBUGGING_ENVIRONMENT</text>
+    <text x="580" y="0" class="text-muted">PROC: bughunt_core.exe</text>
+    <circle cx="750" cy="-4" r="5" class="status-dot"/>
+    <text x="760" y="0" fill="#2ea043" font-family="'Share Tech Mono', monospace" font-size="11px">ACTIVE</text>
+    <line x1="0" y1="12" x2="760" y2="12" stroke="#30363d" stroke-width="1"/>
+  </g>
+
+  <!-- Left Panel: Code Editor -->
+  <g transform="translate(20, 65)">
+    <rect width="380" height="310" class="panel-border" rx="2"/>
+    <text x="15" y="25" class="text-accent" font-size="12">[ CODE_EDITOR_DIAGNOSTICS ]</text>
+    <line x1="15" y1="35" x2="365" y2="35" stroke="#21262d" stroke-width="0.8"/>
+
+    <!-- Editor Wireframe -->
+    <g transform="translate(15, 55)" font-family="monospace" font-size="11px">
+      <!-- Line 1 -->
+      <text x="0" y="15" fill="#8b949e">1: function processUser(user) {</text>
+      <!-- Line 2 -->
+      <text x="0" y="35" fill="#8b949e">2:   if (user.id === null) {</text>
+      <!-- Line 3 with error -->
+      <text x="0" y="55" fill="#ffffff" font-weight="bold">3:     throw new Error("User ID is missing!");</text>
+      <!-- Bounding box representing IDE error highlighting -->
+      <rect x="35" y="42" width="280" height="18" class="bug-highlight"/>
+      
+      <!-- Line 4 -->
+      <text x="0" y="75" fill="#8b949e">4:   }</text>
+      <!-- Line 5 -->
+      <text x="0" y="95" fill="#8b949e">5:   return database.fetchProfile(user.id);</text>
+      <!-- Line 6 -->
+      <text x="0" y="115" fill="#8b949e">6: }</text>
+    </g>
+
+    <!-- Error warning banner -->
+    <g transform="translate(15, 205)">
+      <rect width="350" height="35" fill="#161b22" stroke="#ffffff" stroke-width="1"/>
+      <text x="12" y="21" class="text-accent" font-size="10px">CRITICAL BUG: Thread crash on user.id resolution</text>
+    </g>
+
+    <!-- Multiplayer Lobby -->
+    <g transform="translate(15, 260)" font-size="10px">
+      <text x="0" y="12" class="text-accent">MULTIPLAYER DEBUG LOBBY</text>
+      <text x="0" y="28" class="text-muted">LOBBY: 4/10 debuggers connected</text>
+      <text x="210" y="28" class="text-muted">MODE: Collaborative Coop</text>
+    </g>
+  </g>
+
+  <!-- Right Panel: AI Mentor explanation -->
+  <g transform="translate(420, 65)">
+    <rect width="360" height="310" class="panel-border" rx="2"/>
+    <text x="15" y="25" class="text-accent" font-size="12">[ AI_MENTOR_EXPLANATION ]</text>
+    <line x1="15" y1="35" x2="345" y2="35" stroke="#21262d" stroke-width="0.8"/>
+
+    <!-- Dialog lines -->
+    <g transform="translate(15, 55)">
+      <text x="0" y="12" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
+      <text x="0" y="27" class="text-primary" font-size="12px">"Line 3 throws a raw Error when user.id is null."</text>
+      
+      <text x="0" y="60" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
+      <text x="0" y="75" class="text-primary" font-size="12px">"This crashes the stack. Recommended fix: Return"</text>
+      <text x="0" y="90" class="text-primary" font-size="12px">"null or use an optional fallback payload object."</text>
+
+      <text x="0" y="125" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">AI_MENTOR &gt;&gt;</text>
+      <text x="0" y="140" class="text-primary" font-size="12px">"Click here to learn *why* exceptions break"</text>
+      <text x="0" y="155" class="text-primary" font-size="12px">"asynchronous execution contexts: [docs.txt]"</text>
+    </g>
+
+    <!-- AI inference stats -->
+    <g transform="translate(15, 235)" font-size="11px">
+      <text x="0" y="15" class="text-muted">INFERENCE ENGINE: Groq API client</text>
+      <text x="0" y="30" class="text-muted">MODEL CORE       : Qwen 2.5 / 72B Instruct</text>
+      <text x="0" y="45" class="text-muted">RESPONSE SPEED   : 65 tokens / sec</text>
+      <text x="0" y="60" class="text-muted">EXPLANATION TYPE : Deep conceptual breakdown</text>
+    </g>
+  </g>
+</svg>

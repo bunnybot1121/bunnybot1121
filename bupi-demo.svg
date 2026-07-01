@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .bg { fill: #05070a; }
+      .border { fill: none; stroke: #21262d; stroke-width: 1.5; }
+      .grid { stroke: #161b22; stroke-width: 0.5; }
+      .panel-border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .text-primary { fill: #f0f6fc; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
+      .text-muted { fill: #8b949e; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
+      .text-accent { fill: #ffffff; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
+      .status-yellow { fill: #d29922; }
+      .waveform-line { stroke: #ffffff; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" class="bg"/>
+
+  <!-- Grid lines -->
+  <g opacity="0.8">
+    <line x1="0" y1="50" x2="800" y2="50" class="grid"/>
+    <line x1="0" y1="100" x2="800" y2="100" class="grid"/>
+    <line x1="0" y1="150" x2="800" y2="150" class="grid"/>
+    <line x1="0" y1="200" x2="800" y2="200" class="grid"/>
+    <line x1="0" y1="250" x2="800" y2="250" class="grid"/>
+    <line x1="0" y1="300" x2="800" y2="300" class="grid"/>
+    <line x1="0" y1="350" x2="800" y2="350" class="grid"/>
+    <line x1="100" y1="0" x2="100" y2="400" class="grid"/>
+    <line x1="200" y1="0" x2="200" y2="400" class="grid"/>
+    <line x1="300" y1="0" x2="300" y2="400" class="grid"/>
+    <line x1="400" y1="0" x2="400" y2="400" class="grid"/>
+    <line x1="500" y1="0" x2="500" y2="400" class="grid"/>
+    <line x1="600" y1="0" x2="600" y2="400" class="grid"/>
+    <line x1="700" y1="0" x2="700" y2="400" class="grid"/>
+  </g>
+
+  <!-- Outer Border -->
+  <rect width="800" height="400" class="border"/>
+
+  <!-- Header -->
+  <g transform="translate(20, 30)">
+    <text x="0" y="0" class="text-accent" font-size="14">// SYSTEM: BUPI // AI_DESKTOP_ORCHESTRATOR</text>
+    <text x="580" y="0" class="text-muted">PROC: bupi_companion.bin</text>
+    <circle cx="730" cy="-4" r="5" class="status-yellow"/>
+    <text x="740" y="0" fill="#d29922" font-family="'Share Tech Mono', monospace" font-size="11px">CALIBRATING</text>
+    <line x1="0" y1="12" x2="760" y2="12" stroke="#30363d" stroke-width="1"/>
+  </g>
+
+  <!-- Left Panel: Cognitive Dialog Log -->
+  <g transform="translate(20, 65)">
+    <rect width="380" height="310" class="panel-border" rx="2"/>
+    <text x="15" y="25" class="text-accent" font-size="12">[ COGNITIVE_AI_STREAM ]</text>
+    <line x1="15" y1="35" x2="365" y2="35" stroke="#21262d" stroke-width="0.8"/>
+
+    <!-- Dialog 1 -->
+    <g transform="translate(15, 55)">
+      <text x="0" y="12" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">USER_INPUT_VOICE &gt;&gt;</text>
+      <text x="0" y="27" class="text-primary">"Bupi, scan the room lights and activate MQTT server."</text>
+    </g>
+
+    <!-- Dialog 2 -->
+    <g transform="translate(15, 115)">
+      <text x="0" y="12" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">BUPI_RESPONSE_VOICE &gt;&gt;</text>
+      <text x="0" y="27" class="text-accent">"Scanning local network... 3 ESP32 nodes found. MQTT broker active."</text>
+    </g>
+
+    <!-- Dialog 3 -->
+    <g transform="translate(15, 175)">
+      <text x="0" y="12" fill="#8b949e" font-family="'Share Tech Mono', monospace" font-size="10px">BUPI_ACTION_LOGGER &gt;&gt;</text>
+      <text x="0" y="27" fill="#2ea043" font-family="'Share Tech Mono', monospace" font-size="12px">● Published payload '{"state":"ON"}' to topic '/desk/light'</text>
+    </g>
+
+    <!-- Neural Info -->
+    <g transform="translate(15, 235)" font-size="10px">
+      <text x="0" y="10" class="text-muted">LLM CORE  : Gemini 1.5 Flash</text>
+      <text x="0" y="25" class="text-muted">STT ENGINE: faster-whisper (local offline)</text>
+      <text x="0" y="40" class="text-muted">TTS ENGINE: pyttsx3 voice framework</text>
+      <text x="210" y="10" class="text-muted">LATENCY   : 240ms</text>
+      <text x="210" y="25" class="text-muted">AUDIO OUT : 16-bit PCM</text>
+      <text x="210" y="40" class="text-muted">Uptime    : 04h:23m:11s</text>
+    </g>
+  </g>
+
+  <!-- Right Panel: IoT Gateway -->
+  <g transform="translate(420, 65)">
+    <rect width="360" height="310" class="panel-border" rx="2"/>
+    <text x="15" y="25" class="text-accent" font-size="12">[ IOT_MQTT_GATEWAY_TELEMETRY ]</text>
+    <line x1="15" y1="35" x2="345" y2="35" stroke="#21262d" stroke-width="0.8"/>
+
+    <!-- Device 1 -->
+    <g transform="translate(15, 55)">
+      <text x="0" y="12" class="text-accent">NODE_01: ESP32_DeskLight</text>
+      <text x="0" y="27" class="text-muted">TOPIC: /desk/light | STATUS: ON</text>
+      <circle cx="320" cy="18" r="6" fill="#ffffff"/>
+    </g>
+
+    <!-- Device 2 -->
+    <g transform="translate(15, 115)">
+      <text x="0" y="12" class="text-accent">NODE_02: ESP32_RoomSensor</text>
+      <text x="0" y="27" class="text-muted">TOPIC: /room/temp  | VALUE: 24.5°C</text>
+      <circle cx="320" cy="18" r="6" fill="#ffffff" opacity="0.6"/>
+    </g>
+
+    <!-- Device 3 -->
+    <g transform="translate(15, 175)">
+      <text x="0" y="12" class="text-accent">NODE_03: ESP32_FanRelay</text>
+      <text x="0" y="27" class="text-muted">TOPIC: /fan/speed  | STATUS: OFF</text>
+      <circle cx="320" cy="18" r="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    </g>
+
+    <!-- Voice signal preview (waveform) -->
+    <g transform="translate(15, 240)">
+      <text x="0" y="12" class="text-accent">VOICE_SIGNAL_TELEMETRY</text>
+      <rect x="0" y="20" width="330" height="40" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+      <path d="M 5,260 L 30,260 L 45,245 L 60,275 L 75,250 L 90,270 L 105,240 L 120,280 L 135,245 L 150,275 L 165,260 L 325,260" class="waveform-line" transform="translate(0, -220)"/>
+      <text x="5" y="52" class="text-muted" font-size="8px">INPUT STREAM: active</text>
+      <text x="235" y="52" class="text-muted" font-size="8px">FREQ: 16.0 kHz</text>
+    </g>
+  </g>
+</svg>

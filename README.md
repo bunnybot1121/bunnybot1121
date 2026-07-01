@@ -107,6 +107,10 @@ AI-powered municipal complaint and scheduling platform designed for NMMC/Khargha
 *   **Stack:** `React` · `Supabase` · `Gemini API` · `Vercel`
 *   **Portals:** [Citizen Portal](https://citizenz.vercel.app) &nbsp;·&nbsp; [Admin Portal](https://rnmunicipal.vercel.app) &nbsp;·&nbsp; [Worker Portal](https://fieldstaff.vercel.app)
 
+<p align="center">
+  <img src="./nagar-sevak-demo.svg" width="100%" alt="NagarSevak Dashboard Preview" />
+</p>
+
 <br/>
 
 #### 🤖 &nbsp;[Bupi — AI Companion](https://github.com/bunnybot1121)
@@ -115,6 +119,10 @@ Dual-mode system serving as a desktop AI companion and an IoT/robotics device or
 *   **IoT System:** EventBus asynchronous event routing with ESP32 device control over MQTT.
 *   **Stack:** `Python` · `PyQt6` · `MQTT` · `ESP32`
 *   **Repository:** [View Codebase](https://github.com/bunnybot1121)
+
+<p align="center">
+  <img src="./bupi-demo.svg" width="100%" alt="Bupi AI Companion Preview" />
+</p>
 
 <br/>
 
@@ -125,6 +133,10 @@ A bold, expressive, and production-ready neo-brutalist UI component library.
 *   **Stack:** `HTML5` · `CSS3` · `Vanilla JavaScript`
 *   **Links:** [Live Library](https://uivault1121.vercel.app) &nbsp;·&nbsp; [View Codebase](https://github.com/bunnybot1121)
 
+<p align="center">
+  <img src="./ui-vault-demo.svg" width="100%" alt="UIVault Preview" />
+</p>
+
 <br/>
 
 #### 🐛 &nbsp;[BugHunt](https://github.com/bunnybot1121)
@@ -134,23 +146,9 @@ Interactive AI coding mentor that explains the mechanics of bugs alongside multi
 *   **Stack:** `React` · `Node.js` · `Express` · `Groq`
 *   **Repository:** [View Codebase](https://github.com/bunnybot1121)
 
-<br/>
-
-#### 📡 &nbsp;[NHAIFaceID](https://github.com/piyushyenorkar/NHAIFaceID)
-Offline React Native facial recognition attendance tracker optimized for field staff.
-*   **Key Features:** AdaFace IR-18 embedding + BlazeFace tracker · Passive optical flow-based liveness detection.
-*   **Metrics:** Sub-second verification latency, total offline bundle footprint under 18MB.
-*   **Stack:** `React Native` · `TensorFlow Lite`
-*   **Repository:** [View Codebase](https://github.com/piyushyenorkar/NHAIFaceID)
-
-<br/>
-
-#### 🌍 &nbsp;[DisasterMap](https://github.com/bunnybot1121)
-Real-time crisis detection, threat mapping, and rescue routing platform.
-*   **Key Features:** Aggregates live incident telemetry onto dynamic threat grid visualizations.
-*   **Hackathon:** Developed for the Build for Chaos Hackathon.
-*   **Stack:** `React` · `Supabase` · `Mapbox API`
-*   **Repository:** [View Codebase](https://github.com/bunnybot1121)
+<p align="center">
+  <img src="./bug-hunt-demo.svg" width="100%" alt="BugHunt Coding Mentor Preview" />
+</p>
 
 ---
 
