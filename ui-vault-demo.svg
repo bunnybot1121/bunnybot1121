@@ -2,20 +2,22 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
-      .bg { fill: #05070a; }
-      .border { fill: none; stroke: #21262d; stroke-width: 1.5; }
-      .grid { stroke: #161b22; stroke-width: 0.5; }
-      .panel-border { fill: none; stroke: #30363d; stroke-width: 1; }
-      .text-primary { fill: #f0f6fc; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
-      .text-muted { fill: #8b949e; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
-      .text-accent { fill: #ffffff; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
-      .status-dot { fill: #2ea043; }
+      .bg { fill: #000408; }
+      .border { fill: none; stroke: #003355; stroke-width: 1.5; }
+      .grid { stroke: #001830; stroke-width: 0.5; opacity: 0.6; }
+      .panel-border { fill: none; stroke: #003355; stroke-width: 1; }
+      .text-primary { fill: #00BFFF; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
+      .text-muted { fill: #005577; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
+      .text-accent { fill: #00FFFF; font-family: 'Share Tech Mono', monospace; font-weight: bold; font-size: 13px; }
+      .status-dot { fill: #00FF41; filter: drop-shadow(0 0 3px #00FF41); }
       
-      /* Neo-brutalist component styles */
-      .nb-button { fill: #ffffff; stroke: #ffffff; stroke-width: 3; }
-      .nb-button-shadow { fill: #161b22; stroke: #30363d; stroke-width: 1; }
-      .nb-card { fill: #0d1117; stroke: #ffffff; stroke-width: 2.5; }
-      .nb-card-shadow { fill: #161b22; }
+      /* Neo-brutalist component styles with cyber colors */
+      .nb-button { fill: #00FFFF; stroke: #00FFFF; stroke-width: 2.5; filter: drop-shadow(0 0 2px #00FFFF); }
+      .nb-button-shadow { fill: #003355; }
+      .nb-card { fill: #000c18; stroke: #00BFFF; stroke-width: 2; }
+      .nb-card-shadow { fill: #001d3a; }
+      .slider-fill { fill: #00FFFF; filter: drop-shadow(0 0 3px #00FFFF); }
+      .slider-handle { fill: #ffffff; filter: drop-shadow(0 0 4px #00FFFF); }
     </style>
   </defs>
 
@@ -46,17 +48,17 @@
   <!-- Header -->
   <g transform="translate(20, 30)">
     <text x="0" y="0" class="text-accent" font-size="14">// SYSTEM: UIVAULT // NEO_BRUTALIST_UI_LIBRARY</text>
-    <text x="580" y="0" class="text-muted">HOST: uivault1121.vercel.app</text>
-    <circle cx="750" cy="-4" r="5" class="status-dot"/>
-    <text x="760" y="0" fill="#2ea043" font-family="'Share Tech Mono', monospace" font-size="11px">ONLINE</text>
-    <line x1="0" y1="12" x2="760" y2="12" stroke="#30363d" stroke-width="1"/>
+    <text x="540" y="0" class="text-muted">HOST: uivault1121.vercel.app</text>
+    <circle cx="710" cy="-4" r="5" class="status-dot"/>
+    <text x="720" y="0" fill="#00FF41" font-family="'Share Tech Mono', monospace" font-size="11px">JARVIS_ONLINE</text>
+    <line x1="0" y1="12" x2="760" y2="12" stroke="#003355" stroke-width="1"/>
   </g>
 
   <!-- Left Panel: Component Previews -->
   <g transform="translate(20, 65)">
     <rect width="360" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ COMPONENT_STAGE_PREVIEW ]</text>
-    <line x1="15" y1="35" x2="345" y2="35" stroke="#21262d" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="345" y2="35" stroke="#003355" stroke-width="0.8"/>
 
     <!-- Neo-brutalist Button -->
     <g transform="translate(40, 60)">
@@ -65,7 +67,7 @@
       <!-- Button Body -->
       <rect width="160" height="40" class="nb-button"/>
       <!-- Button Text -->
-      <text x="42" y="24" fill="#05070a" font-family="'Share Tech Mono', monospace" font-weight="900" font-size="14px">CLICK_ME!</text>
+      <text x="42" y="24" fill="#000408" font-family="'Share Tech Mono', monospace" font-weight="900" font-size="14px">CLICK_ME!</text>
     </g>
 
     <!-- Neo-brutalist Card -->
@@ -75,8 +77,8 @@
       <!-- Card Body -->
       <rect width="270" height="120" class="nb-card"/>
       <!-- Card Header -->
-      <rect width="270" height="26" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
-      <text x="10" y="18" fill="#05070a" font-family="'Share Tech Mono', monospace" font-weight="900" font-size="12px">system_notification.exe</text>
+      <rect width="270" height="26" fill="#002244" stroke="#00BFFF" stroke-width="1"/>
+      <text x="10" y="18" fill="#00FFFF" font-family="'Share Tech Mono', monospace" font-weight="900" font-size="12px">system_notification.exe</text>
       <!-- Card Content -->
       <text x="15" y="55" class="text-primary" font-size="11px">NEO-BRUTALISM IS BOLD.</text>
       <text x="15" y="75" class="text-primary" font-size="11px">Thick borders, high contrast,</text>
@@ -88,21 +90,21 @@
   <g transform="translate(400, 65)">
     <rect width="380" height="310" class="panel-border" rx="2"/>
     <text x="15" y="25" class="text-accent" font-size="12">[ CUSTOMIZATION_ENGINE ]</text>
-    <line x1="15" y1="35" x2="365" y2="35" stroke="#21262d" stroke-width="0.8"/>
+    <line x1="15" y1="35" x2="365" y2="35" stroke="#003355" stroke-width="0.8"/>
 
     <!-- Sliders and parameters -->
     <g transform="translate(15, 60)">
       <!-- Parameter 1 -->
       <text x="0" y="10" class="text-muted">BORDER_WIDTH: 3px</text>
-      <rect x="0" y="20" width="350" height="4" fill="#161b22" rx="2"/>
-      <rect x="0" y="20" width="220" height="4" fill="#ffffff" rx="2"/>
-      <circle cx="220" cy="22" r="5" fill="#ffffff"/>
+      <rect x="0" y="20" width="350" height="4" fill="#000d1a" rx="2"/>
+      <rect x="0" y="20" width="220" height="4" class="slider-fill" rx="2"/>
+      <circle cx="220" cy="22" r="5" class="slider-handle"/>
 
       <!-- Parameter 2 -->
       <text x="0" y="55" class="text-muted">SHADOW_OFFSET: 6px</text>
-      <rect x="0" y="65" width="350" height="4" fill="#161b22" rx="2"/>
-      <rect x="0" y="65" width="280" height="4" fill="#ffffff" rx="2"/>
-      <circle cx="280" cy="67" r="5" fill="#ffffff"/>
+      <rect x="0" y="65" width="350" height="4" fill="#000d1a" rx="2"/>
+      <rect x="0" y="65" width="280" height="4" class="slider-fill" rx="2"/>
+      <circle cx="280" cy="67" r="5" class="slider-handle"/>
 
       <!-- Parameter 3 -->
       <text x="0" y="100" class="text-muted">SHADOW_DIRECTION: BOTTOM_RIGHT</text>
@@ -110,11 +112,11 @@
 
       <!-- Parameter 4 -->
       <text x="0" y="150" class="text-muted">COLOR_THEME_SELECT</text>
-      <rect x="0" y="160" width="160" height="24" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
-      <text x="10" y="176" fill="#05070a" font-family="'Share Tech Mono', monospace" font-size="11px" font-weight="bold">PURE_BLACK_&amp;_WHITE</text>
+      <rect x="0" y="160" width="160" height="24" fill="#00FFFF" stroke="#00FFFF" stroke-width="1"/>
+      <text x="10" y="176" fill="#000408" font-family="'Share Tech Mono', monospace" font-size="11px" font-weight="bold">NEON_CYBER_ACCENTS</text>
       
-      <rect x="175" y="160" width="160" height="24" fill="none" stroke="#30363d" stroke-width="1"/>
-      <text x="195" y="176" class="text-muted" font-size="11px">NEON_CYBER_ACCENTS</text>
+      <rect x="175" y="160" width="160" height="24" fill="none" stroke="#003355" stroke-width="1"/>
+      <text x="195" y="176" class="text-muted" font-size="11px">PURE_BLACK_&amp;_WHITE</text>
     </g>
 
     <!-- Lib stats -->

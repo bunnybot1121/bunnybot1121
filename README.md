@@ -66,7 +66,7 @@ research:
 </td>
 <td width="48%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=21262d&hide_border=false" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=000408&title_color=00ffff&text_color=00bfff&icon_color=00ffff&border_color=003355&hide_border=false" width="100%" />
 
 </td>
 </tr>
@@ -76,25 +76,9 @@ research:
 
 ## `$ cat research.txt`
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="100%">
-
-### 📄 &nbsp;Co-Authored Research Paper
-
-**"A Safety-Weighted Priority Framework for AI-Based Municipal Complaint Management"**
-
-> Proposed a 145-rule engine that classifies, scores, and routes civic complaints using safety-weighted heuristics and AI inference — deployed in NagarSevak for NMMC, Kharghar.
-
-`AI Systems` &nbsp;·&nbsp; `Civic Tech` &nbsp;·&nbsp; `Priority Scheduling` &nbsp;·&nbsp; `Gemini Vision API`
-
-</td>
-</tr>
-</table>
-
-</div>
+<p align="center">
+  <img src="./research-paper.svg" width="100%" alt="Co-Authored Research Paper" />
+</p>
 
 ---
 
@@ -183,13 +167,13 @@ tools_devops=("Git" "GitHub Actions" "Vercel" "VS Code" "Figma")
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=21262d&hide_border=false" height="175" />
+<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=000408&title_color=00ffff&text_color=00bfff&icon_color=00ffff&border_color=003355&hide_border=false" height="175" />
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=0d1117&border=21262d&stroke=30363d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&hide_border=false" height="175" />
+<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=000408&border=003355&stroke=00bfff&ring=00ffff&fire=ff4500&currStreakNum=ffffff&sideNums=00bfff&currStreakLabel=005577&sideLabels=005577&dates=005577&hide_border=false" height="175" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=0d1117&color=ffffff&line=30363d&point=ffffff&area=true&area_color=161b22&hide_border=false&border_color=21262d&title_color=ffffff&custom_title=Contribution+Activity" width="97%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=000408&color=00ffff&line=003355&point=00ffff&area=true&area_color=001122&hide_border=false&border_color=003355&title_color=00ffff&custom_title=Contribution+Activity" width="97%" />
 
 <br/>
 
