@@ -118,7 +118,7 @@
     </g>
 
     <!-- Lib stats -->
-    <g transform="translate(15, 230)" font-size="11px">
+    <g transform="translate(15, 260)" font-size="11px">
       <text x="0" y="15" class="text-muted">TOTAL_COMPONENTS: 41+</text>
       <text x="0" y="30" class="text-muted">LIBRARY_WEIGHT   : 12.4 kB (Gzipped)</text>
       <text x="0" y="45" class="text-muted">DEPENDENCIES     : 0 (Zero external libs)</text>
