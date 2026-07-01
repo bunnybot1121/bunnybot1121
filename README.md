@@ -37,7 +37,7 @@
 <tr>
 <td width="52%">
 
-```yaml
+```text
 # sachin.config.yml
 
 identity:
@@ -66,7 +66,7 @@ research:
 </td>
 <td width="48%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bunnybot1121&layout=compact&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=21262d&hide_border=false" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=bunnybot1121&layout=compact&bg_color=05070a&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=21262d&hide_border=false" width="100%" />
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ tools_devops=("Git" "GitHub Actions" "Vercel" "VS Code" "Figma")
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff&border_color=21262d&hide_border=false" height="175" />
+<img src="https://github-readme-stats.vercel.app/api?username=bunnybot1121&show_icons=true&bg_color=05070a&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=21262d&hide_border=false" height="175" />
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=0d1117&border=21262d&stroke=30363d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&hide_border=false" height="175" />
+<img src="https://streak-stats.demolab.com/?user=bunnybot1121&background=05070a&border=21262d&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=false" height="175" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=0d1117&color=ffffff&line=30363d&point=ffffff&area=true&area_color=161b22&hide_border=false&border_color=21262d&title_color=ffffff&custom_title=Contribution+Activity" width="97%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bunnybot1121&bg_color=05070a&color=ffffff&line=30363d&point=ffffff&area=true&area_color=161b22&hide_border=false&border_color=21262d&title_color=ffffff&custom_title=Contribution+Activity" width="97%" />
 
 <br/>
 
