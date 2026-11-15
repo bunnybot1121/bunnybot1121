@@ -40,91 +40,145 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    const markdown = `# Sachin Yadav
+    const markdown = `<div align="center">
 
-**Full-Stack & Applied AI Engineer** · Navi Mumbai, India  
-Building dependable full-stack applications, applied AI systems, and IoT infrastructure with real-world impact.
+  <img src="./banner.svg" alt="Sachin Yadav Banner" width="100%" />
 
-[![Resume](https://img.shields.io/badge/Resume-Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1GVTR3I-cbCKU3Ex_9El_jnJTHi6mIQ7I/view?usp=sharing)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sachinyadav1121-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachinyadav1121)
-[![Portfolio](https://img.shields.io/badge/Portfolio-sachin--0.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white)](https://sachin-0.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-bunnybot1121-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/bunnybot1121)
-[![Email](https://img.shields.io/badge/Email-Sachinyadav402107%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Sachinyadav402107@gmail.com)
+  <br/><br/>
 
----
+  <a href="https://drive.google.com/file/d/1GVTR3I-cbCKU3Ex_9El_jnJTHi6mIQ7I/view?usp=sharing">
+    <img src="https://img.shields.io/badge/Resume-Google_Drive-238636?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/sachinyadav1121">
+    <img src="https://img.shields.io/badge/LinkedIn-sachinyadav1121-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://sachin-0.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-sachin--0.vercel.app-161b22?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/bunnybot1121">
+    <img src="https://img.shields.io/badge/GitHub-bunnybot1121-161b22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="mailto:Sachinyadav402107@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 
-### 📌 Summary
+</div>
 
-- 🎓 **Education:** Computer Engineering Undergraduate @ Saraswati College of Engineering, Navi Mumbai.
-- 🎯 **Looking For:** Software Engineering & Applied AI Internships / Junior SDE Opportunities.
-- 🛠️ **Current Focus:** Production web platforms, civic technology architectures, and intelligent edge device systems.
-- 🔬 **Research:** Co-authored the *145-Rule Safety-Weighted AI Priority Framework* for automated municipal complaint dispatching.
-
----
-
-### 🚀 Featured Projects
-
-#### 1. [NagarSevak — AI Municipal Dispatch & Civic Platform](https://citizenz.vercel.app/login)
-> Production-grade multi-role municipal complaint resolution and workforce dispatch engine built for local government operations.
-
-* **Key Capabilities:**
-  * Automated damage assessment via **Gemini Vision API** for instant severity triage from citizen uploads.
-  * Proprietary **145-rule safety-weighted priority scheduler** balancing public hazard risks against resource availability.
-  * Three role-segregated portals handling end-to-end incident lifecycles from citizen filing to field repair.
-* **Tech Stack:** \`React\` · \`Supabase\` · \`PostgreSQL\` · \`Gemini Vision API\` · \`Node.js\` · \`Vercel\`
-* **Live Demos:** [Citizen Portal](https://citizenz.vercel.app/login) · [Admin Operations](https://rnunicipal.vercel.app/login) · [Field Worker Dispatch](https://fieldstaff.vercel.app/) · [Repository](https://github.com/bunnybot1121)
+<br/>
 
 ---
 
-#### 2. [Bupi — Desktop AI Companion & IoT Device Orchestrator](https://github.com/bunnybot1121)
-> Low-latency physical companion system integrating real-time speech assistance with hardware actuation.
+### ⚡ System Overview
 
-* **Key Capabilities:**
-  * Sub-second offline speech recognition via \`faster-whisper\` and natural neural speech synthesis (\`pyttsx3\`).
-  * Asynchronous event bus linking LLM intent classification (Gemini 1.5 Flash) directly to physical microcontrollers.
-  * Real-time bi-directional telemetry and sensor feedback over lightweight **MQTT** queues to ESP32 boards.
-* **Tech Stack:** \`Python\` · \`PyQt6\` · \`faster-whisper\` · \`Gemini 1.5 Flash\` · \`ESP32\` · \`MQTT\`
-* **Links:** [Source Code & Documentation](https://github.com/bunnybot1121)
+\`\`\`yaml
+operator:
+  name     : Sachin Yadav
+  role     : Full-Stack & Applied AI Engineer
+  base     : Navi Mumbai, India 🇮🇳
+  education: Computer Engineering Undergraduate @ Saraswati College of Engineering
+  status   : Open for SDE & Applied AI Internships (Summer 2025/2026)
+
+focus_areas:
+  - Civic Platforms & Municipal Dispatch Automation
+  - Full-Stack Web Architectures (React / Supabase / Next.js)
+  - Edge Speech & Physical AI Companions (Gemini / Whisper / ESP32)
+  - Heuristic Priority Systems & Algorithmic Triage
+\`\`\`
 
 ---
 
-#### 3. [UIVault — Neo-Brutalist Component Library](https://uivault1121.vercel.app/)
+### 🚀 Featured Systems & Deployments
+
+#### 01. [NagarSevak — AI Municipal Dispatch & Civic Platform](https://citizenz.vercel.app/login)
+> Production-grade multi-role municipal incident triage and workforce scheduling platform designed for local government operations.
+
+* **Architecture:** Three role-segregated portals built to handle end-to-end incident lifecycles: citizen submission, administrative oversight, and field technician work orders.
+* **Intelligent Triage:** Automated damage classification via **Gemini Vision API** paired with a proprietary **145-rule safety-weighted priority scheduler** balancing public hazard risks against resource availability.
+* **Stack:** \`React\` · \`Supabase\` · \`PostgreSQL\` · \`Gemini Vision API\` · \`Node.js\` · \`Vercel\`
+* **Direct Links:** [Citizen Portal](https://citizenz.vercel.app/login) · [Admin Dashboard](https://rnunicipal.vercel.app/login) · [Field Staff Portal](https://fieldstaff.vercel.app/) · [Codebase](https://github.com/bunnybot1121)
+
+<br/>
+
+<img src="./nagar-sevak-demo.svg" width="100%" alt="NagarSevak System Blueprint" />
+
+<br/><br/>
+
+---
+
+#### 02. [Bupi — Desktop AI Companion & IoT Device Orchestrator](https://github.com/bunnybot1121)
+> Low-latency physical companion system integrating real-time voice assistance with hardware actuation.
+
+* **Voice Pipeline:** Sub-second local speech-to-text processing using \`faster-whisper\` coupled with natural neural text-to-speech synthesis (\`pyttsx3\`).
+* **Hardware Telemetry:** Asynchronous event bus linking LLM tool calls (Gemini 1.5 Flash) directly to physical ESP32 microcontrollers over real-time **MQTT** message queues.
+* **Stack:** \`Python\` · \`PyQt6\` · \`faster-whisper\` · \`Gemini 1.5 Flash\` · \`ESP32\` · \`MQTT\`
+* **Direct Links:** [Codebase & Hardware Specs](https://github.com/bunnybot1121)
+
+<br/>
+
+<img src="./bupi-demo.svg" width="100%" alt="Bupi Architecture Preview" />
+
+<br/><br/>
+
+---
+
+#### 03. [UIVault — Neo-Brutalist Component Library](https://uivault1121.vercel.app/)
 > High-contrast, zero-dependency component library designed to help developers build distinctive web interfaces.
 
-* **Key Capabilities:**
-  * **41+ modular components** implemented with 100% vanilla web primitives without heavy JavaScript runtime overhead.
-  * Complete keyboard accessibility, WCAG-compliant contrast ratios, and responsive layouts across all screen breakpoints.
-  * Rapid drop-in styling for developers seeking bold typography and tactile design outside standard UI frameworks.
-* **Tech Stack:** \`HTML5\` · \`CSS3\` · \`Vanilla JavaScript\` · \`Vercel\`
-* **Links:** [Live Component Showcase](https://uivault1121.vercel.app/) · [Repository](https://github.com/bunnybot1121)
+* **Design Engineering:** **41+ modular components** implemented with 100% vanilla web primitives without heavy JavaScript runtime dependencies.
+* **Accessibility & Performance:** Complete keyboard navigation support, high-contrast WCAG ratios, and responsive touch layouts across all breakpoints.
+* **Stack:** \`HTML5\` · \`CSS3\` · \`Vanilla JavaScript\` · \`Vercel\`
+* **Direct Links:** [Live Component Showcase](https://uivault1121.vercel.app/) · [Codebase](https://github.com/bunnybot1121)
+
+<br/>
+
+<img src="./ui-vault-demo.svg" width="100%" alt="UIVault Preview" />
+
+<br/><br/>
 
 ---
 
-### 💻 Technical Stack
+### 🔬 Research & Publications
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Languages** | TypeScript, JavaScript (ES6+), Python, C++ (Embedded / Arduino), SQL, HTML5, CSS3 |
-| **Frontend** | React, Next.js, Tailwind CSS, Vite, Vanilla Web Components |
-| **Backend & Databases** | Node.js, Express, Supabase, PostgreSQL, REST APIs |
-| **AI & Embedded Systems** | Gemini API, Faster-Whisper, Groq API, ESP32 Microcontrollers, MQTT |
-| **Tooling & DevOps** | Git, GitHub Actions, Vercel, VS Code, Postman, Linux/Bash |
-
----
-
-### 📄 Research & Publications
+<img src="./research-paper.svg" width="100%" alt="Research Paper Blueprint" />
 
 * **"145-Rule Safety-Weighted AI Priority Framework for Municipal Complaints"**  
   *Co-Author* · Algorithmic prioritization system integrating computer vision and heuristic weight matrices to optimize municipal work-order routing based on physical danger severity.
 
 ---
 
-### 📬 Get in Touch
+### 🛠️ Technical Arsenal
 
-* **Email:** [Sachinyadav402107@gmail.com](mailto:Sachinyadav402107@gmail.com)
-* **LinkedIn:** [linkedin.com/in/sachinyadav1121](https://www.linkedin.com/in/sachinyadav1121)
-* **Portfolio:** [sachin-0.vercel.app](https://sachin-0.vercel.app/)
-* **Resume:** [View on Google Drive](https://drive.google.com/file/d/1GVTR3I-cbCKU3Ex_9El_jnJTHi6mIQ7I/view?usp=sharing)
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Languages-TypeScript_·_JavaScript_·_Python_·_C++_·_SQL_·_HTML5/CSS3-161b22?style=for-the-badge&logoColor=white" />
+  
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/Frontend-React_·_Next.js_·_Tailwind_CSS_·_Vite_·_Web_Components-161b22?style=for-the-badge&logoColor=white" />
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/Backend_&_Cloud-Node.js_·_Express_·_Supabase_·_PostgreSQL_·_REST_APIs_·_Vercel-161b22?style=for-the-badge&logoColor=white" />
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/AI_&_IoT-Gemini_API_·_Faster--Whisper_·_Groq_API_·_ESP32_·_MQTT-161b22?style=for-the-badge&logoColor=white" />
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/DevOps_&_Tools-Git_·_GitHub_Actions_·_Linux_·_VS_Code_·_Postman-161b22?style=for-the-badge&logoColor=white" />
+
+</div>
+
+---
+
+<div align="center">
+  <sub>Engineered with precision · Tested in production · Built in Navi Mumbai 🇮🇳</sub>
+</div>
 `;
 
     document.getElementById('content').innerHTML = marked.parse(markdown);
